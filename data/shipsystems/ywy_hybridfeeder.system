@@ -1,0 +1,15 @@
+{
+	"id":"ywy_hybridfeeder",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	#"type":"AMMO_RELOAD",
+    #"aiType":"AMMO_RELOAD",
+	
+	"statsScript":"yoshgramm_wen_yards.shipsystems.ywy_hybridfeeder_script",
+	
+	"weaponGlowColor":[255,172,20,122],
+	"weaponTypes":[BALLISTIC, MISSILE],
+	
+	"useSound":"system_ammo_feeder",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

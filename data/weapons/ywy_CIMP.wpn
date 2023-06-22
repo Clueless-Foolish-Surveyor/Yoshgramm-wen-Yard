@@ -1,0 +1,62 @@
+{
+  "id": "ywy_CIMP",
+  "specClass": "projectile",
+  "projectileSpecId": "ywy_microMsl",
+  "type": "MISSILE",
+  "size": "SMALL",
+  "everyFrameEffect": "yoshgramm_wen_yards.scripts.weapons.ywy_CIMP_offsetAngle",
+  "turretSprite": "graphics/YwY_weapons/ywy_cimp_turret_base.png",
+  "hardpointSprite": "graphics/YwY_weapons/ywy_cimp_hard_base.png",
+  "turretOffsets": [
+    8.5,
+    1.5,
+    8.5,
+    -1.5,
+    1.5,
+    1.5,
+    1.5,
+    -1.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    12.5,
+    1.5,
+    12.5,
+    -1.5,
+    5.5,
+    1.5,
+    5.5,
+    -1.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 4,
+    "particleSizeRange": 6,
+    "cloudParticleCount": 7,
+    "cloudDuration": 0.5,
+    "cloudRadius": 7,
+    "blowbackParticleCount": 0,
+    "blowbackDuration": 0,
+    "blowbackLength": 0,
+    "blowbackSpread": 0,
+    "particleColor": [
+      156,
+      156,
+      156,
+      75
+    ]
+  },
+  "fireSoundTwo": "ywy_mslBat_fire"
+}

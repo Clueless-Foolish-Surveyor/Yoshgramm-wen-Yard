@@ -1,0 +1,16 @@
+{
+  "baseHullId": "ywy_luohoff_ca_base",
+  "baseValueMult": 1,
+  "descriptionId": "ywy_luohoff_ca_base",
+  "descriptionPrefix": "The Luohoff-class's forward canards are a popular place for crews to paint sharkmouths and other ornamental schemes.",
+  "fighterBays": 0,
+  "fleetPoints": 15,
+  "fpMod": 0,
+  "hullDesignation": "Heavy Cruiser",
+  "hullName": "Luohoff (Painted A)",
+  "manufacturer": "Yoshgramm-wen Yards",
+  "restoreToBaseHull": false,
+  "skinHullId": "ywy_luohoff_ca_skm1",
+  "spriteName": "graphics/YwY_ships/ywy_luohoff_ca_baseB.png",
+  "tech": "Yoshgramm-wen Yards"
+}

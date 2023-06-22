@@ -1,0 +1,68 @@
+{
+  "variantId": "ywy_lichterbo_cv_Command",
+  "hullId": "ywy_lichterbo_cv_base",
+  "displayName": "Command",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 10,
+  "quality": 15,
+  "permaMods": [],
+  "hullMods": [
+    "operations_center",
+    "hiressensors"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ywy_XPDCG",
+        "WS0002": "ywy_MSPDS",
+        "WS0003": "ywy_MSPDS",
+        "WS0004": "ywy_MSPDS",
+        "WS0005": "ywy_XPDCG",
+        "ywy_spinal": "ywy_EWS"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "ywy_LRBMB",
+        "WS0007": "ywy_LRBMB"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "ywy_fightbomb_wing",
+    "ywy_fightbomb_wing",
+    "ywy_heavyinter_SUPERwing",
+    "ywy_fightbomb_SUPERwing"
+  ]
+}

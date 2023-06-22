@@ -1,0 +1,47 @@
+{
+  "id": "ywy_heavyinter_BMFGP_l",
+  "specClass": "projectile",
+  "projectileSpecId": "ywy_flakpod_shot",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "displayArcRadius": 1000,
+  "turretSprite": "graphics/YwY_sc_weps/ywy_heavyinter_bmFGP_l.png",
+  "turretGunSprite": "graphics/YwY_sc_weps/ywy_heavyinter_bmFGP_recoil.png",
+  "hardpointSprite": "graphics/YwY_sc_weps/ywy_heavyinter_bmFGP_l.png",
+  "hardpointGunSprite": "graphics/YwY_sc_weps/ywy_heavyinter_bmFGP_recoil.png",
+  "visualRecoil": 1.5,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    20,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    30.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 6,
+    "spread": 3,
+    "particleSizeMin": 4,
+    "particleSizeRange": 7,
+    "particleDuration": 0.2,
+    "particleCount": 5,
+    "particleColor": [
+      218,
+      218,
+      218,
+      125
+    ]
+  },
+  "fireSoundTwo": "ywy_BMFGP_fire"
+}

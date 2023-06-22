@@ -1,0 +1,48 @@
+{	
+	"designTypeColors":{
+		"Yoshgramm-wen Yards":[102,119,89,255],
+	},
+	
+	"graphics":{
+		
+		"ywy_acews_vfx_frames":{
+			"ywy_acews_vfx_frame0": "graphics/YwY_VFX/ywy_wuhauser/ywy_wuhauser_ews_00.png",
+			"ywy_acews_vfx_frame1": "graphics/YwY_VFX/ywy_wuhauser/ywy_wuhauser_ews_01.png",
+			"ywy_acews_vfx_frame2": "graphics/YwY_VFX/ywy_wuhauser/ywy_wuhauser_ews_02.png",
+			"ywy_acews_vfx_frame3": "graphics/YwY_VFX/ywy_wuhauser/ywy_wuhauser_ews_03.png",
+			"ywy_acews_vfx_frame4": "graphics/YwY_VFX/ywy_wuhauser/ywy_wuhauser_ews_04.png",
+			"ywy_acews_vfx_frame5": "graphics/YwY_VFX/ywy_wuhauser/ywy_wuhauser_ews_05.png",
+			"ywy_acews_vfx_frame6": "graphics/YwY_VFX/ywy_wuhauser/ywy_wuhauser_ews_06.png",
+		},
+		
+		"ywy_acews_vfx_emptyframe": {
+			"ywy_acews_vfx_blankframe": "graphics/YwY_VFX/ywy_wuhauser/ywy_wuhauser_ews_blank.png",
+		},
+
+		"ywy_droneCore_vfx_frames" : {
+			"ywy_coreCore_vfx_frame0": "graphics/YwY_VFX/ywy_yuzhanji/YwY_droneCore_light_00.png",
+			"ywy_coreCore_vfx_frame1": "graphics/YwY_VFX/ywy_yuzhanji/YwY_droneCore_light_01.png",
+			"ywy_coreCore_vfx_frame2": "graphics/YwY_VFX/ywy_yuzhanji/YwY_droneCore_light_02.png",
+			"ywy_coreCore_vfx_frame3": "graphics/YwY_VFX/ywy_yuzhanji/YwY_droneCore_light_03.png",
+		},
+
+		"ywy_xpdcg_fx": {
+			"ywy_xpdcg_shell": "graphics/YwY_VFX/ywy_xpdcg/ywy_xpdcg_shotCasing.png",
+		},
+
+		"ywy_saupmsmmp_fx": {
+			"ywy_saupmsmmp_box": "graphics/YwY_VFX/ywy_superVonlubu/ywy_superVonlubu_mmslPod.png",
+			"ywy_sauppac_heatsink": "graphics/YwY_VFX/ywy_superVonlubu/ywy_superVonlubu_pac_heatsink.png",
+		},
+
+		"ywy_bmsac_fx": {
+			"ywy_bmsac_shotshell": "graphics/YwY_VFX/ywy_bmsac/ywy_bmsac_shotshellcase.png"
+		},
+
+		"ywy_vanillaFX": {
+			"ywy_nuke_shockwave": "graphics/fx/star_halo.png"
+		},
+
+	},
+
+}

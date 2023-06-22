@@ -1,0 +1,47 @@
+{
+	"id":"ywy_nukeMsl",
+	"specClass":"missile",
+	"onHitEffect": "yoshgramm_wen_yards.scripts.weapons.ywy_nuclearMsl_onHit",
+	"missileType":"MISSILE",
+	"sprite":"graphics/YwY_missiles/ywy_nuclearMsl.png",
+	"size":[16,30],
+	"center":[8,15],
+	"collisionRadius":20,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,0,66,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":450, # purely visual
+	"explosionSpec": { "duration": 0.25f, # not visual
+					   "radius": 450,
+					   "coreRadius": 200, # full damage within core radius
+					   "collisionClass": HITS_SHIPS_AND_ASTEROIDS,
+					   "collisionClassByFighter": HITS_SHIPS_AND_ASTEROIDS,
+					   "particleSizeMin": 5.0,
+					   "particleSizeRange": 15.0,
+					   "particleDuration": 2.5,
+					   "particleCount": 200,
+					   "particleColor": [255,0,66,255] },
+	"engineSpec": { "turnAcc": 210,
+					"turnRate": 70,
+					"acc": 1000,
+					"dec": 500 },
+	"engineSlots":[{"id":"ES1",
+					"loc":[-16, 0],
+				    #"style":"YWY_NUKE_MSL",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[255,0,122,255],
+						"contrailDuration":2,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":2.5,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":30, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":.5, # how far away from engine it starts
+						"contrailColor":[99,68,82,150],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":4.0,
+				    "length":50.0,
+				    "angle":180.0}]
+}

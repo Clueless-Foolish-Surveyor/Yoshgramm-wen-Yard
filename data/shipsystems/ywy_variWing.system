@@ -1,0 +1,17 @@
+{
+	"id":"ywy_variWing",
+	"type":"STAT_MOD",
+	"aiType":"RESERVE_DEPLOYMENT",
+	
+	"statsScript":"yoshgramm_wen_yards.shipsystems.ywy_variWing",
+	
+	"useSound":"system_reserve_wing",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}
+
+
+
+

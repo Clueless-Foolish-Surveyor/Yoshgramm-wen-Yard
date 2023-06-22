@@ -1,0 +1,240 @@
+{
+  "hullName": "Yuzhanji",
+  "hullId": "ywy_superfighter_craft",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/YwY_strikecraft/ywy_aerospacesuperiority_craft.png",
+  "style": "MIDLINE",
+  "height": 44,
+  "width": 66,
+  "center": [33, 22],
+  "collisionRadius": 36,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 34.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "No_wep_dam",
+    "no_weapon_flux",
+    "pointdefenseai"
+  ],
+  "builtInWeapons": {
+    "WS0001": "ywy_dronefighter_gun",
+    "WS0002": "ywy_dronefighter_flakgun",
+    "WS0003": "ywy_dronefighter_gun",
+    "WS0004": "ywy_dronefighter_flakgun",
+    "WS0005": "ywy_dronefighter_gun",
+    "WS0006": "ywy_dronefighter_flakgun",
+    "WS0007": "ywy_dronefighter_mslpod",
+    "WS0008": "ywy_dronefighter_mslpod",
+    "WS0009": "ywy_dronefighter_core",
+    "WS0010": "ywy_dronefighter_flakgun",
+    "WS0011": "ywy_dronefighter_gun",
+    "WS0012": "ywy_dronefighter_flakgun",
+    "WS0013": "ywy_dronefighter_gun",
+    "WS0014": "ywy_dronefighter_flakgun",
+    "WS0015": "ywy_dronefighter_gun"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": 0,
+      "locations": [8, 4.5],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": -0,
+      "locations": [8.5, -4.5],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": 0,
+      "locations": [7, 6.5],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": -0,
+      "locations": [7.5, -6.5],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": 0,
+      "locations": [6, 8.5],
+      "renderOrderMod": 15
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": -0,
+      "locations": [6.5, -8.5],
+      "renderOrderMod": 15
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 40,
+      "angle": 135,
+      "locations": [2.5, 13.5],
+      "renderOrderMod": 20
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 40,
+      "angle": -135,
+      "locations": [2.5, -13.5],
+      "renderOrderMod": 20
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 20,
+      "angle": 0,
+      "locations": [7, -0],
+      "renderOrderMod": 25
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": 0,
+      "locations": [6.5, 8.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": -0,
+      "locations": [6, -8.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": 0,
+      "locations": [7.5, 6.5]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": -0,
+      "locations": [7, -6.5]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": 0,
+      "locations": [8.5, 4.5]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": -0,
+      "locations": [8, -4.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-10.5, 16],
+      "length": 30,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 90,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-10.5, -16],
+      "length": 30,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 90,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-10.5, 13],
+      "length": 40,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 90,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-10.5, -13],
+      "length": 40,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 90,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -8.5, -11.5,
+    -11.5, -11.5,
+    -11.5, -17.5,
+    -6.5, -18.5,
+    -3.5, -24.5,
+    -3.5, -29.5,
+    0.5, -30.5,
+    5, -23,
+    9.5, -14,
+    12.5, -3,
+    14.5, -1.5,
+    14.5, 1.5,
+    12.5, 3,
+    9.5, 14,
+    5, 23,
+    0.5, 30.5,
+    -3.5, 29.5,
+    -3.5, 24.5,
+    -6.5, 18.5,
+    -11.5, 17.5,
+    -11.5, 11.5,
+    -8.5, 11.5
+  ]
+}

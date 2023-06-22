@@ -1,0 +1,46 @@
+{
+	"id":"ywy_fluxShunt_jets",
+	#"type":"ENGINE_MOD",
+	#"aiType":"BURN_DRIVE",
+	#"type":"STAT_MOD",
+    #"aiType":"DAMPER_FIELD",
+
+    "type":"ENGINE_MOD",
+    "aiType":"CUSTOM",
+    "aiScript":"yoshgramm_wen_yards.shipsystems.ai.ywy_fluxShunt_sysAI",
+
+	"statsScript":"yoshgramm_wen_yards.shipsystems.ywy_fluxShunt_jets_script",
+	
+	"engineGlowColor":[212,43,213,255],
+	"engineGlowContrailColor":[103,58,183,128],
+	#"engineGlowLengthMult":1.25f,
+	#"engineGlowWidthMult":1.25f,
+	"engineGlowGlowMult":1.6f,
+
+	"jitterUnderColor":[255,70,70,255],
+	"jitterUnderCopies":25,
+    "jitterUnderMinRange":0,
+    "jitterUnderRange":7,
+    "jitterUnderRangeRadiusFraction":0,
+
+    "jitterColor":[255,125,125,90],
+    "jitterCopies":2,
+    "jitterMinRange":0,
+    "jitterRange":5,
+    "jitterRangeRadiusFraction":0,
+	
+	"flameoutOnImpactChance":0,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":false,
+
+	"useSound":"system_maneuvering_jets",
+	"loopSound":"flux_loop",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"activeSpeedIncrease":125,
+		"burstMovementPotential":0,
+		"averageSpeedIncrease":100,
+	}
+}

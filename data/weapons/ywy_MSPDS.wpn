@@ -1,0 +1,51 @@
+{
+  "id": "ywy_MSPDS",
+  "specClass": "projectile",
+  "projectileSpecId": "vulcan_shot",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "everyFrameEffect": "yoshgramm_wen_yards.scripts.weapons.ywy_msFireSmoke",
+  "displayArcRadius": 300,
+  "turretSprite": "graphics/YwY_weapons/ywy_msPDS_base_turret.png",
+  "turretGunSprite": "graphics/YwY_weapons/ywy_msPDS_base_turret_recoil.png",
+  "hardpointSprite": "graphics/YwY_weapons/ywy_msPDS_base_hard.png",
+  "hardpointGunSprite": "graphics/YwY_weapons/ywy_msPDS_base_hard_recoil.png",
+  "visualRecoil":1.0,
+  "turretOffsets": [
+    9.5,
+    1.5,
+    9.5,
+    -1.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    14.5,
+    1.5,
+    14.5,
+    -1.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 10,
+    "spread": 6,
+    "particleSizeMin": 6,
+    "particleSizeRange": 8,
+    "particleDuration": 0.3,
+    "particleCount": 4,
+    "particleColor": [
+      255,
+      210,
+      95,
+      75
+    ]
+  },
+  "fireSoundTwo": "ywy_MDSPDS_fire"
+}

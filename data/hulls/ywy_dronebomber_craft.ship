@@ -1,0 +1,141 @@
+{
+  "hullName": "Wuyissendor",
+  "hullId": "ywy_dronebomber_craft",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/YwY_strikecraft/ywy_dronebomber_craft.png",
+  "style": "MIDLINE",
+  "height": 58,
+  "width": 50,
+  "center": [25, 29],
+  "collisionRadius": 30,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 29.5,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0001": "ywy_dronebomber_wingL",
+    "WS0002": "ywy_dronebomber_wingR",
+    "WS0003": "ywy_dronebomber_bay",
+    "WS0004": "ywy_dronebomber_bay",
+    "WS0005": "ywy_dronebomber_noseMask",
+    "WS0006": "ywy_dronebomber_bodyMask",
+    "WS0007": "ywy_dronebomber_tailMask"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 31,
+      "angle": -90,
+      "locations": [2.5, 3],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 31,
+      "angle": 90,
+      "locations": [2.5, -3],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [3.5, 2.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": -0,
+      "locations": [3.5, -2.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [18, -0],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [1.5, -0],
+      "renderOrderMod": 15
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-14.5, -0],
+      "renderOrderMod": 20
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": -128,
+      "locations": [-3.5, -3.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": 128,
+      "locations": [-3.5, 3.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-22, -0],
+      "length": 60,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 112,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -22.5, -1.5,
+    -17.5, -3,
+    -22.5, -10.5,
+    -19.5, -15.5,
+    -8.5, -4.5,
+    -2.5, -3.5,
+    3.5, -5.5,
+    7.5, -3,
+    28.5, -0.5,
+    28.5, 0.5,
+    7.5, 3,
+    3.5, 5.5,
+    -2.5, 3.5,
+    -8.5, 4.5,
+    -19.5, 15.5,
+    -22.5, 10.5,
+    -17.5, 3,
+    -22.5, 1.5
+  ]
+}

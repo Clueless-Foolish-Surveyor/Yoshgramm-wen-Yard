@@ -1,0 +1,49 @@
+{
+  "variantId": "ywy_superfighter_craft_sys",
+  "hullId": "ywy_superfighter_craft",
+  "displayName": "Superiority ASF (System)",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "ywy_VWAI"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ywy_dronefighter_gun",
+        "WS0003": "ywy_dronefighter_gun",
+        "WS0005": "ywy_dronefighter_gun",
+        "WS0011": "ywy_dronefighter_gun",
+        "WS0013": "ywy_dronefighter_gun",
+        "WS0015": "ywy_dronefighter_gun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "ywy_dronefighter_flakgun",
+        "WS0004": "ywy_dronefighter_flakgun",
+        "WS0006": "ywy_dronefighter_flakgun",
+        "WS0010": "ywy_dronefighter_flakgun",
+        "WS0012": "ywy_dronefighter_flakgun",
+        "WS0014": "ywy_dronefighter_flakgun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "ywy_dronefighter_mslpod",
+        "WS0008": "ywy_dronefighter_mslpod"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

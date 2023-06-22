@@ -1,0 +1,45 @@
+{
+  "id": "ywy_dronebomber_nuke",
+  "specClass": "projectile",
+  "projectileSpecId": "ywy_nukeMsl",
+  "type": "MISSILE",
+  "size": "SMALL",
+  "everyFrameEffect": "yoshgramm_wen_yards.scripts.weapons.ywy_nuclearMsl_onFire",
+  "displayArcRadius": 300,
+  "turretSprite": "graphics/YwY_missiles/ywy_nuclearMsl.png",
+  "hardpointSprite": "graphics/YwY_missiles/ywy_nuclearMsl.png",
+  "turretOffsets": [
+    0,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    6.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 14,
+    "particleSizeRange": 23,
+    "cloudParticleCount": 4,
+    "cloudDuration": 1.1,
+    "cloudRadius": 16,
+    "blowbackParticleCount": 5,
+    "blowbackDuration": 1.8,
+    "blowbackLength": 30,
+    "blowbackSpread": 20,
+    "particleColor": [
+      99,
+      68,
+      82,
+      184
+    ]
+  },
+  "fireSoundTwo": "bomb_bay_fire"
+}

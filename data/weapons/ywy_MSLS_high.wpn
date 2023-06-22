@@ -1,0 +1,52 @@
+{
+  "id": "ywy_MSLS_high",
+  "specClass": "projectile",
+  "projectileSpecId": "heavymg_shot",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "displayArcRadius": 300,
+  "turretSprite": "graphics/YwY_weapons/ywy_spinalMG.png",
+  "hardpointSprite": "graphics/YwY_weapons/ywy_spinalMG.png",
+  "specialWeaponGlowHeight": 25,
+  "specialWeaponGlowWidth": 15,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    7,
+    2.5,
+    7,
+    -2.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    11.5,
+    2.5,
+    11.5,
+    -2.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING_BURST",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 20,
+    "spread": 3,
+    "particleSizeMin": 7,
+    "particleSizeRange": 9,
+    "particleDuration": 0.2,
+    "particleCount": 10,
+    "particleColor": [
+      218,
+      218,
+      218,
+      125
+    ]
+  },
+  "fireSoundTwo": "ywy_spinalMGb_fire"
+}

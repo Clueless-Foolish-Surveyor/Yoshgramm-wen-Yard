@@ -1,0 +1,195 @@
+{
+
+#WEAPONS
+
+	#MSLS Fire (b = high RPM, a = low RPM)
+	"ywy_spinalMGb_fire":
+	[
+		{"file":"sounds/YwY_wpn_sfx/ywy_spinalmgfire1b.ogg","pitch":1.0,"volume":0.7},
+		{"file":"sounds/YwY_wpn_sfx/ywy_spinalmgfire2b.ogg","pitch":1.0,"volume":0.7},
+		{"file":"sounds/YwY_wpn_sfx/ywy_spinalmgfire3b.ogg","pitch":1.0,"volume":0.7},
+	],
+	
+	"ywy_spinalMGa_fire":
+	[
+		{"file":"sounds/YwY_wpn_sfx/ywy_spinalmgfire1a.ogg","pitch":1.0,"volume":0.65},
+		{"file":"sounds/YwY_wpn_sfx/ywy_spinalmgfire1a.ogg","pitch":1.05,"volume":0.7},
+		{"file":"sounds/YwY_wpn_sfx/ywy_spinalmgfire1a.ogg","pitch":0.95,"volume":0.75},
+	],
+
+	#BMFGP Fire
+	"ywy_BMFGP_fire":
+		[
+			{ "file": "sounds/YwY_wpn_sfx/ywy_spinalmgfire1a.ogg","pitch": 0.5,"volume": 0.35 },
+			{ "file": "sounds/YwY_wpn_sfx/ywy_spinalmgfire1a.ogg","pitch": 0.55,"volume": 0.4 },
+			{ "file": "sounds/YwY_wpn_sfx/ywy_spinalmgfire1a.ogg","pitch": 0.45,"volume": 0.3 },
+		],
+	
+	#MSPDS Fire
+	"ywy_MDSPDS_fire":
+	[
+		{"file":"sounds/YwY_wpn_sfx/ywy_mspds_fire1.ogg","pitch":0.8,"volume":0.35},
+		{"file":"sounds/YwY_wpn_sfx/ywy_mspds_fire2.ogg","pitch":0.8,"volume":0.35},
+		{"file":"sounds/YwY_wpn_sfx/ywy_mspds_fire3.ogg","pitch":0.8,"volume":0.35},
+	],
+
+	#MSDCS Fire
+	"ywy_MSDCS_fire":
+		[
+			{ "file": "sounds/YwY_wpn_sfx/ywy_msdcs_fire1.ogg","pitch": 0.88,"volume": 0.65},
+			{ "file": "sounds/YwY_wpn_sfx/ywy_msdcs_fire2.ogg","pitch": 0.88,"volume": 0.65},
+			{ "file": "sounds/YwY_wpn_sfx/ywy_msdcs_fire3.ogg","pitch": 0.88,"volume": 0.65},
+		],
+
+	#MSDCS Fire
+	"ywy_MSDCA_fire":
+		[
+			{ "file": "sounds/YwY_wpn_sfx/ywy_msdca_fire1.ogg","pitch": 0.96,"volume": 0.83 },
+			{ "file": "sounds/YwY_wpn_sfx/ywy_msdca_fire2.ogg","pitch": 0.96,"volume": 0.83 },
+			{ "file": "sounds/YwY_wpn_sfx/ywy_msdca_fire3.ogg","pitch": 0.96,"volume": 0.83 },
+		],
+
+	#MSGP Fire
+	"ywy_MDGP_fire":
+		[
+			{ "file": "sounds/YwY_wpn_sfx/ywy_msdcs_fire1.ogg","pitch": 0.6,"volume": 0.22 },
+			{ "file": "sounds/YwY_wpn_sfx/ywy_msdcs_fire2.ogg","pitch": 0.6,"volume": 0.22 },
+			{ "file": "sounds/YwY_wpn_sfx/ywy_msdcs_fire3.ogg","pitch": 0.6,"volume": 0.22 },
+		],
+
+	#BMSAC Fire
+	"ywy_BMSAC_fire": {
+		"sounds": [
+			{ "file": "sounds/YwY_wpn_sfx/ywy_bmsac_fire1.ogg","pitch": 1,"volume": 0.9 },
+			{ "file": "sounds/YwY_wpn_sfx/ywy_bmsac_fire2.ogg","pitch": 1,"volume": 0.9 },
+			{ "file": "sounds/YwY_wpn_sfx/ywy_bmsac_fire3.ogg","pitch": 1,"volume": 0.96 },
+		],
+	},
+
+	#XPDCG Fire and Canister Burst
+	"ywy_XPDCG_fire":
+		[
+			{"file": "sounds/YwY_wpn_sfx/ywy_xpdcg_fire1.ogg","pitch": 1,"volume": 0.5},
+			{"file": "sounds/YwY_wpn_sfx/ywy_xpdcg_fire2.ogg","pitch": 1,"volume": 0.5},
+			{"file": "sounds/YwY_wpn_sfx/ywy_xpdcg_fire3.ogg","pitch": 1,"volume": 0.5},
+		],
+
+	"ywy_PDCS_explode":
+		[
+			{ "file": "sounds/YwY_wpn_sfx/ywy_pdcs_burst1.ogg","pitch": 1,"volume": 0.9},
+			{ "file": "sounds/YwY_wpn_sfx/ywy_pdcs_burst2.ogg","pitch": 1,"volume": 0.9},
+			{ "file": "sounds/YwY_wpn_sfx/ywy_pdcs_burst3.ogg","pitch": 1,"volume": 0.9},
+		],
+	
+	#ESPV Fire
+	"ywy_ESPV_fire":
+	[
+		{"file":"sounds/YwY_wpn_sfx/ywy_espv_fire1.ogg","pitch":0.8,"volume":0.25},
+		{"file":"sounds/YwY_wpn_sfx/ywy_espv_fire2.ogg","pitch":0.8,"volume":0.25},
+		{"file":"sounds/YwY_wpn_sfx/ywy_espv_fire3.ogg","pitch":0.8,"volume":0.25},
+	],
+
+	#EMPAC Fire
+	"ywy_EMPAC_fire":
+	[
+		{"file": "sounds/YwY_wpn_sfx/ywy_empac_fire1.ogg","pitch": 1,"volume": 0.65},
+		{"file": "sounds/YwY_wpn_sfx/ywy_empac_fire2.ogg","pitch": 1,"volume": 0.65},
+		{"file": "sounds/YwY_wpn_sfx/ywy_empac_fire3.ogg","pitch": 1,"volume": 0.65},
+	],
+
+	#SAUP PAC Fire
+	"ywy_SAUP_PAC_fire":
+		[
+			{ "file": "sounds/YwY_wpn_sfx/ywy_empac_fire1.ogg","pitch": 0.8,"volume": 0.20 },
+			{ "file": "sounds/YwY_wpn_sfx/ywy_empac_fire2.ogg","pitch": 0.8,"volume": 0.20 },
+			{ "file": "sounds/YwY_wpn_sfx/ywy_empac_fire3.ogg","pitch": 0.8,"volume": 0.20 },
+		],
+	
+	#Kill Rod Launch
+	"ywy_killrod_fire":
+	[
+		{"file":"sounds/YwY_wpn_sfx/ywy_killrod_launch.ogg","pitch":1.0,"volume":0.4},
+	],
+
+	#Missile Battery Fire
+
+	#Original set, quiet and sutble.
+	"ywy_mslBat_fire":
+	[
+		{"file":"sounds/YwY_wpn_sfx/ywy_mslBatFire1.ogg", "pitch": 0.8, "volume": 0.25},
+		{"file":"sounds/YwY_wpn_sfx/ywy_mslBatFire1.ogg", "pitch": 0.75, "volume": 0.18},
+		{"file":"sounds/YwY_wpn_sfx/ywy_mslBatFire1.ogg", "pitch": 0.88, "volume": 0.33},
+		{"file":"sounds/YwY_wpn_sfx/ywy_mslBatFire2.ogg", "pitch": 0.8, "volume": 0.25},
+		{"file":"sounds/YwY_wpn_sfx/ywy_mslBatFire2.ogg", "pitch": 0.77, "volume": 0.19},
+		{"file":"sounds/YwY_wpn_sfx/ywy_mslBatFire2.ogg", "pitch": 0.85, "volume": 0.30},
+		{"file":"sounds/YwY_wpn_sfx/ywy_mslBatFire3.ogg", "pitch": 0.8, "volume": 0.25},
+		{"file":"sounds/YwY_wpn_sfx/ywy_mslBatFire3.ogg", "pitch": 0.7, "volume": 0.15},
+		{"file":"sounds/YwY_wpn_sfx/ywy_mslBatFire3.ogg", "pitch": 0.9, "volume": 0.35},
+		{"file":"sounds/YwY_wpn_sfx/ywy_mslBatFire4.ogg", "pitch": 0.8, "volume": 0.25},
+		{"file":"sounds/YwY_wpn_sfx/ywy_mslBatFire4.ogg", "pitch": 0.75, "volume": 0.20},
+		{"file":"sounds/YwY_wpn_sfx/ywy_mslBatFire4.ogg", "pitch": 0.85, "volume": 0.30},
+	],
+
+	#Louder and more audible over battlefield soundscape
+	"ywy_mslBat_fire2":
+	[
+		{ "file": "sounds/YwY_wpn_sfx/ywy_mslBatFire1.ogg", "pitch": 0.8, "volume": 0.50},
+		{ "file": "sounds/YwY_wpn_sfx/ywy_mslBatFire1.ogg", "pitch": 0.75, "volume": 0.45},
+		{ "file": "sounds/YwY_wpn_sfx/ywy_mslBatFire1.ogg", "pitch": 0.88, "volume": 0.55},
+		{ "file": "sounds/YwY_wpn_sfx/ywy_mslBatFire2.ogg", "pitch": 0.8, "volume": 0.50},
+		{ "file": "sounds/YwY_wpn_sfx/ywy_mslBatFire2.ogg", "pitch": 0.77, "volume": 0.41},
+		{ "file": "sounds/YwY_wpn_sfx/ywy_mslBatFire2.ogg", "pitch": 0.85, "volume": 0.62},
+		{ "file": "sounds/YwY_wpn_sfx/ywy_mslBatFire3.ogg", "pitch": 0.8, "volume": 0.50},
+		{ "file": "sounds/YwY_wpn_sfx/ywy_mslBatFire3.ogg", "pitch": 0.7, "volume": 0.35},
+		{ "file": "sounds/YwY_wpn_sfx/ywy_mslBatFire3.ogg", "pitch": 0.9, "volume": 0.75},
+		{ "file": "sounds/YwY_wpn_sfx/ywy_mslBatFire4.ogg", "pitch": 0.8, "volume": 0.50},
+		{ "file": "sounds/YwY_wpn_sfx/ywy_mslBatFire4.ogg", "pitch": 0.75, "volume": 0.40},
+		{ "file": "sounds/YwY_wpn_sfx/ywy_mslBatFire4.ogg", "pitch": 0.85, "volume": 0.60},
+	],
+
+	#SRM Split Shot Sound
+	"ywy_srm_splitShot":
+	[
+		{"file":"sounds/YwY_wpn_sfx/ywy_srmSplitShot1.ogg","pitch":0.75,"volume":0.3},
+		{"file":"sounds/YwY_wpn_sfx/ywy_srmSplitShot2.ogg","pitch":0.75,"volume":0.3},
+		{"file":"sounds/YwY_wpn_sfx/ywy_srmSplitShot3.ogg","pitch":0.75,"volume":0.3},
+		{"file":"sounds/YwY_wpn_sfx/ywy_srmSplitShot4.ogg","pitch":0.75,"volume":0.3},
+		{"file":"sounds/YwY_wpn_sfx/ywy_srmSplitShot5.ogg","pitch":0.75,"volume":0.3},
+		{"file":"sounds/YwY_wpn_sfx/ywy_srmSplitShot6.ogg","pitch":0.75,"volume":0.3},
+		{"file":"sounds/YwY_wpn_sfx/ywy_srmSplitShot7.ogg","pitch":0.75,"volume":0.3},
+		{"file":"sounds/YwY_wpn_sfx/ywy_srmSplitShot8.ogg","pitch":0.75,"volume":0.3},
+	],
+	
+	#EWS Bootup and Active Loop 
+	"ywy_EWS_bootup":
+	[
+		{"file":"sounds/YwY_wpn_sfx/ywy_ews_intro.ogg","pitch":1.0,"volume":0.4},
+	],
+
+	"ywy_EWS_loop":
+	[
+		{"file":"sounds/YwY_wpn_sfx/ywy_ews_loop.ogg","pitch":1.0,"volume":0.65},
+	],
+
+	#HEPBP Beam Loop
+	"ywy_hepbp_in":
+		[
+			{ "file": "sounds/YwY_wpn_sfx/ywy_aspbp_beamIn.ogg","pitch": 1,"volume": 0.37 }
+		],
+
+	"ywy_hepbp_loop":
+		[
+			{ "file": "sounds/YwY_wpn_sfx/ywy_aspbp_beam.ogg","pitch": 1,"volume": 0.33 }
+		],
+
+	#ASPBP Beam Loop
+	"ywy_aspbp_loop":
+	[
+		{"file":"sounds/YwY_wpn_sfx/ywy_aspbp_beam.ogg","pitch":0.55,"volume":1}
+	],
+	
+}
+
+
+
+

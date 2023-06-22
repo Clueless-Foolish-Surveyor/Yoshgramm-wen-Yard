@@ -1,0 +1,54 @@
+{
+  "id": "ywy_EMPAC",
+  "specClass": "projectile",
+  "projectileSpecId": "heavyblaster_shot",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/YwY_weapons/ywy_medBeam_base_turret.png",
+  "turretGlowSprite": "graphics/YwY_weapons/ywy_medBeam_glow_turret.png",
+  "hardpointSprite": "graphics/YwY_weapons/ywy_medBeam_base_hard.png",
+  "hardpointGlowSprite": "graphics/YwY_weapons/ywy_medBeam_glow_hard.png",
+  "glowColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "turretOffsets": [
+    17.5,
+    1.5,
+    17.5,
+    -1.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    22,
+    1.5,
+    22,
+    -1.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 20,
+    "spread": 12,
+    "particleSizeMin": 10,
+    "particleSizeRange": 20,
+    "particleDuration": 0.12,
+    "particleCount": 12,
+    "particleColor": [
+      100,
+      100,
+      255,
+      255
+    ]
+  },
+  "fireSoundTwo": "ywy_EMPAC_fire"
+}

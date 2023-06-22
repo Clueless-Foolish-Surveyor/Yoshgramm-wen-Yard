@@ -1,0 +1,25 @@
+{
+	"id":"ywy_lrbmb_shellbomb",
+	"specClass":"missile",
+	"missileType":"BOMB",
+	#"missileType":"BOMB_WITH_SLOW",
+	#"missileType":"ROCKET",
+	"sprite":"graphics/YwY_missiles/ywy_lrbMslBat_shellbomb.png",
+	"onHitEffect": "com.fs.starfarer.api.impl.combat.PilumOnHitEffect",
+	"size":[6,11],
+	"center":[3.5,6],
+	"collisionRadius":10,
+	"collisionClass":"MISSILE_FF",
+	"explosionColor":[90,225,208,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":150, # purely visual
+	"armingTime":0.22,
+	"explosionSpec":{"duration":0.13f, # not visual
+					 "radius":100,
+					 "coreRadius":50, # full damage within core radius
+					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS},				  
+	"engineSpec":{"turnAcc":0,
+				  "turnRate":0,
+				  "acc":50,
+				  "dec":50}
+}

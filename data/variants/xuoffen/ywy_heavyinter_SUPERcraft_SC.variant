@@ -1,0 +1,29 @@
+{
+  "variantId": "ywy_heavyinter_SUPERcraft_SC",
+  "hullId": "ywy_heavyinter_SUPERcraft",
+  "displayName": "AWACS/EWAR Craft",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ywy_heavyinter_turret"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "ywy_EWS"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

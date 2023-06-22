@@ -1,0 +1,93 @@
+{
+  "id": "ywy_BMSAC",
+  "specClass": "projectile",
+  "projectileSpecId": "heavymg_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "everyFrameEffect": "yoshgramm_wen_yards.scripts.weapons.ywy_BMSAC_SmokeFlash",
+  "displayArcRadius": 1000,
+  "turretSprite": "graphics/YwY_weapons/ywy_bmsAC_base_turret.png",
+  "turretGunSprite": "graphics/YwY_weapons/ywy_bmsAC_recoil_turret.png",
+  "hardpointSprite": "graphics/YwY_weapons/ywy_bmsAC_base_hard.png",
+  "hardpointGunSprite": "graphics/YwY_weapons/ywy_bmsAC_recoil_hard.png",
+  "visualRecoil": 7.5,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    31,
+    0,
+    31,
+    -0.5,
+    31,
+    0.5,
+    31,
+    0,
+    31,
+    0.5,
+    31,
+    -0.5,
+    31,
+    0,
+    31,
+    0.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    34.5,
+    0,
+    34.5,
+    0.5,
+    34.5,
+    -0.5,
+    34.5,
+    0,
+    34.5,
+    0.5,
+    34.5,
+    -0.5,
+    34.5,
+    0.5,
+    34.5,
+    -0.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 12,
+    "particleSizeRange": 16,
+    "cloudParticleCount": 13,
+    "cloudDuration": 0.75,
+    "cloudRadius": 12,
+    "blowbackParticleCount": 0,
+    "blowbackDuration": 0,
+    "blowbackLength": 0,
+    "blowbackSpread": 0,
+    "particleColor": [
+      170,
+      160,
+      150,
+      12
+    ]
+  },
+  "fireSoundTwo": "ywy_BMSAC_fire"
+}

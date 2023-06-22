@@ -1,0 +1,79 @@
+{
+	"id":"ywy_asmMirv_srm",
+	"specClass":"missile",	
+	"missileType":"MIRV",
+	"onHitEffect": "yoshgramm_wen_yards.scripts.weapons.ywy_SAUPASM_MIRVSRM_HEAVHead",
+	"sprite":"graphics/YwY_missiles/ywy_superVon_asmMIRV_srm.png",
+	"size":[5,10],
+	"center":[3,5.5],
+	"collisionRadius":10,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[230,102,43,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":70, # purely visual
+	"armingTime": 0.07,
+	"noEngineGlowTime": 0.07,
+	"maxFlightTime":3.7,
+	"engineSpec": { "turnAcc": 700,
+					"turnRate": 1,
+					"acc": 1250,
+					"dec": 1250,
+					"maxSpeed": 400,
+					},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-6, 0],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						#"engineColor":[255,145,75,255],
+						"engineColor": [255,145,75,255],
+						"contrailDuration":1,
+						"contrailWidthMult":0.5,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":.5, # how far away from engine it starts
+						"contrailColor":[100,100,100,150],
+				    	"glowSizeMult":1.5,
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+					"width": 4.0,
+					"length": 16.0,
+				    "angle":180.0}],
+	"behaviorSpec":{"behavior":"MIRV",
+					"splitRange":150,
+					"splitRangeRange":20,
+					"minTimeToSplit":0.75,
+					"canSplitEarly":true,
+					"splitSound":"ywy_srm_splitShot",
+					"numShots":1,
+					"damage":200,
+					"impact":10,
+					"emp":0, # needs to match highlight in weapon_data.csv
+					"damageType":HIGH_EXPLOSIVE,
+					"hitpoints":500,
+					"evenSpread":true,
+					"arc":20,
+					"spreadInaccuracy":0,
+					#"spreadSpeed":300,
+					"spreadSpeed":800,
+					"spreadSpeedRange":400,
+					"projectileRange":600, # only needed if not a missile
+					"projectileSpec":"ywy_asmMirv_srmHEAT",
+					"debrisSmall": 4,
+					"debrisMedium": 0,
+					"debrisLarge": 0,
+					"smokeSpec":{"particleSizeMin":3.0,
+								 "particleSizeRange":6.0,
+								 "cloudParticleCount":5,
+								 "cloudDuration":0.35,
+								 "cloudRadius":10.0,
+								 "blowbackParticleCount":0,
+								 "blowbackDuration":0,
+								 "blowbackLength":0,
+								 "blowbackSpread":0,
+								 "particleColor":[161,143,130,200]}
+					}				    
+}
+

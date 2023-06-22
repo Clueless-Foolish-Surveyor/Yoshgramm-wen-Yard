@@ -1,0 +1,69 @@
+{
+  "id": "ywy_ASPBP",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/YwY_weapons/ywy_aspbpBeam_base_turret.png",
+  "turretGlowSprite": "graphics/YwY_weapons/ywy_aspbpBeam_glow_turret.png",
+  "hardpointSprite": "graphics/YwY_weapons/ywy_aspbpBeam_base_hard.png",
+  "hardpointGlowSprite": "graphics/YwY_weapons/ywy_aspbpBeam_glow_hard.png",
+  "glowColor": [
+    128,
+    233,
+    243,
+    255
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    5,
+    0,
+    2.5,
+    -8.5,
+    2.5,
+    8.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    8.5,
+    0,
+    6,
+    8.5,
+    6,
+    -8.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "fringeColor": [
+    8,
+    229,
+    249,
+    255
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "width": 13,
+  "textureType": ROUGH,
+  "textureScrollSpeed": 64,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundTwo": "ywy_aspbp_loop"
+}

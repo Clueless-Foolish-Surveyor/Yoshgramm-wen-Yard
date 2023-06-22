@@ -1,0 +1,40 @@
+{
+  "id": "ywy_dronefighter_gun",
+  "specClass": "projectile",
+  "projectileSpecId": "vulcan_shot",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "turretSprite": "graphics/YwY_sc_weps/ywy_aerospacesuperiority_wepPort.png",
+  "hardpointSprite": "graphics/YwY_sc_weps/ywy_aerospacesuperiority_wepPort.png",
+  "turretOffsets": [
+    0,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    2,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 7,
+    "spread": 4,
+    "particleSizeMin": 3,
+    "particleSizeRange": 5,
+    "particleDuration": 0.15,
+    "particleCount": 4,
+    "particleColor": [
+      255,
+      210,
+      95,
+      75
+    ]
+  },
+  "fireSoundTwo": "ywy_MDGP_fire"
+}

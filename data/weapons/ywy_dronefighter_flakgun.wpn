@@ -1,0 +1,41 @@
+{
+  "id": "ywy_dronefighter_flakgun",
+  "specClass": "projectile",
+  "projectileSpecId": "ywy_flakpod_shot",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "displayArcRadius": 1000,
+  "turretSprite": "graphics/YwY_sc_weps/ywy_aerospacesuperiority_wepPort.png",
+  "hardpointSprite": "graphics/YwY_sc_weps/ywy_aerospacesuperiority_wepPort.png",
+  "turretOffsets": [
+    0,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    2,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 10,
+    "spread": 6,
+    "particleSizeMin": 5,
+    "particleSizeRange": 8,
+    "particleDuration": 0.25,
+    "particleCount": 7,
+    "particleColor": [
+      218,
+      218,
+      218,
+      125
+    ]
+  },
+  "fireSoundTwo": "ywy_BMFGP_fire"
+}

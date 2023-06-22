@@ -1,0 +1,22 @@
+{
+  "variantId": "ywy_dronebomber_SUPERcraft_SC",
+  "hullId": "ywy_dronebomber_SUPERcraft",
+  "displayName": "Strategic Drone Bomber",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ywy_dronebomber_nuke"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

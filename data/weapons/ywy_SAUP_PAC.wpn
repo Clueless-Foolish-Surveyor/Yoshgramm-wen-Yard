@@ -1,0 +1,44 @@
+{
+  "id": "ywy_SAUP_PAC",
+  "specClass": "projectile",
+  "projectileSpecId": "amblaster_shot",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "everyFrameEffect": "yoshgramm_wen_yards.scripts.weapons.ywy_saupPAC_onFire",
+  "turretSprite": "graphics/YwY_sc_weps/ywy_superVonlubu_hac_main.png",
+  "turretGunSprite": "graphics/YwY_sc_weps/ywy_superVonlubu_hac_recoil.png",
+  "hardpointSprite": "graphics/YwY_sc_weps/ywy_superVonlubu_hac_main.png",
+  "hardpointGunSprite": "graphics/YwY_sc_weps/ywy_superVonlubu_hac_recoil.png",
+  "visualRecoil": 22.0,
+  "turretOffsets": [
+    22,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    34.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 12,
+    "spread": 6,
+    "particleSizeMin": 6,
+    "particleSizeRange": 10,
+    "particleDuration": 0.18,
+    "particleCount": 6,
+    "particleColor": [
+      100,
+      100,
+      255,
+      255
+    ]
+  },
+  "fireSoundTwo": "ywy_SAUP_PAC_fire"
+}

@@ -1,0 +1,44 @@
+{
+  "variantId": "ywy_wuhauser_cve_Militia",
+  "hullId": "ywy_wuhauser_cve_base",
+  "displayName": "Militia",
+  "goalVariant": false,
+  "fluxCapacitors": 7,
+  "fluxVents": 8,
+  "quality": 3,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "converted_hangar"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "ywy_spinal": "ywy_GKKR"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "swarmer",
+        "WS0002": "swarmer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "mininglaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "broadsword_wing",
+    "broadsword_wing",
+    "talon_wing"
+  ]
+}

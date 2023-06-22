@@ -1,0 +1,7 @@
+{
+	"id":"ywy_SEADflares",
+	"type":"WEAPON",
+	"aiType":"FLARE_JAMMER",
+	"weaponDataId":"ywy_SEADflare_launcher",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

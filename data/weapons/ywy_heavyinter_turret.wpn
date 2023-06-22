@@ -1,0 +1,61 @@
+{
+  "id": "ywy_heavyinter_turret",
+  "specClass": "projectile",
+  "projectileSpecId": "ywy_plasVul_shot",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "turretSprite": "graphics/YwY_sc_weps/ywy_heavyinter_turret.png",
+  "hardpointSprite": "graphics/YwY_sc_weps/ywy_heavyinter_turret.png",
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    3.5,
+    1.5,
+    3.5,
+    -1.5,
+    4,
+    -1.5,
+    4,
+    1.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    7,
+    1.5,
+    7,
+    -1.5,
+    7.5,
+    -1.5,
+    7.5,
+    1.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 16,
+    "spread": 9,
+    "particleSizeMin": 4,
+    "particleSizeRange": 6,
+    "particleDuration": 0.15,
+    "particleCount": 8,
+    "particleColor": [
+      39,
+      241,
+      227,
+      200
+    ]
+  },
+  "fireSoundTwo": "ywy_ESPV_fire"
+}

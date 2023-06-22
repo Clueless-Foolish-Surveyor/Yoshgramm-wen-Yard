@@ -1,0 +1,128 @@
+{
+  "hullName": "Super Vonlubu",
+  "hullId": "ywy_fightbomb_SUPERcraft",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/YwY_strikecraft/ywy_fighterbomb_SUPERcraft.png",
+  "style": "MIDLINE",
+  "height": 58,
+  "width": 49,
+  "center": [24.5, 29],
+  "collisionRadius": 28,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 27.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reduced_explosion",
+    "no_weapon_flux",
+    "No_wep_dam"
+  ],
+  "builtInWeapons": {
+    "WS0001": "ywy_saup_engines",
+    "WS0002": "ywy_SAUP_PAC",
+    "WS0003": "ywy_SAUP_ASMR",
+    "WS0004": "ywy_SAUP_MSMMP_l",
+    "WS0005": "ywy_SAUP_MSMMP_r"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, -0],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 7,
+      "angle": 0,
+      "locations": [3.5, 5],
+      "renderOrderMod": 15
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 7,
+      "angle": 0,
+      "locations": [2, -4],
+      "renderOrderMod": 15
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 7,
+      "angle": 0,
+      "locations": [-10.5, 11.5],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 7,
+      "angle": 0,
+      "locations": [-11, -11],
+      "renderOrderMod": 5
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-19, 0.5],
+      "length": 25,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 118,
+      "style": "CUSTOM",
+      "styleId": "MIDLINE"
+    },
+    {
+      "location": [-23.5, 5],
+      "length": 20,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 90,
+      "style": "CUSTOM",
+      "styleId": "HIGH_TECH"
+    },
+    {
+      "location": [-23.5, -5],
+      "length": 20,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 90,
+      "style": "CUSTOM",
+      "styleId": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    20, 2,
+    20, -1,
+    17, -3,
+    2, -4,
+    -9.5, -16,
+    -14, -16,
+    -16, -13,
+    -10, -6.5,
+    -15.5, -5,
+    -23.5, -7,
+    -20, 0.5,
+    -23.5, 8,
+    -15.5, 5.5,
+    -10, 7.5,
+    -16, 14,
+    -14, 17,
+    -9.5, 17,
+    2, 5,
+    17, 4
+  ]
+}

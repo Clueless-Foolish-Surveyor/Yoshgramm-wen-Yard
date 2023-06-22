@@ -1,0 +1,75 @@
+{
+	"id":"ywy_pdcs",
+	"specClass":"missile",	
+	"missileType":"MIRV",
+	"onFireEffect":"yoshgramm_wen_yards.scripts.weapons.ywy_pdcs_burst",
+	"sprite":"graphics/YwY_missiles/ywy_pdcs.png",
+	"size":[6,11],
+	"center":[3,5],
+	"collisionRadius":10,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,165,50,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":15, # purely visual
+	"fadeTime":1, # fadeout duration
+	"engineSpec":{"turnAcc":0,
+				  "turnRate":0,
+				  "acc":325,
+				  "dec":325},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-9, 0],
+				    #"style":"MISSILE_UNGUIDED",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						#"engineColor":[255,145,75,255],
+						"engineColor":[255,175,100,0],
+						"contrailDuration":1,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":3, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":.5, # how far away from engine it starts
+						"contrailColor":[100,100,100,0],
+				    	"glowSizeMult":0,
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":1.0,
+				    "length":1.0,
+				    "angle":180.0}],
+	"behaviorSpec":{"behavior":"MIRV",
+					"splitRange":1000000,
+					"splitRangeRange":0,
+					"minTimeToSplit":0.1,
+					"canSplitEarly":true,
+					"splitSound":"ywy_PDCS_explode",
+					"numShots":10,
+					"damage":65,
+					"impact":5,
+					"emp":0, # needs to match highlight in weapon_data.csv
+					"damageType":FRAGMENTATION,
+					"hitpoints":10,
+					"evenSpread":false,
+					"arc":32,
+					"spreadInaccuracy":10,
+					#"spreadSpeed":300,
+					"spreadSpeed":830,
+					"spreadSpeedRange":215,
+					"projectileRange":350, # only needed if not a missile
+					"projectileSpec":"ywy_pdcs_pellet",
+					"debrisSmall": 14,
+					"debrisMedium": 0,
+					"debrisLarge": 0,
+					"smokeSpec":{"particleSizeMin":10.0,
+								 "particleSizeRange":12.0,
+								 "cloudParticleCount":9,
+								 "cloudDuration":0.5,
+								 "cloudRadius":15.0,
+								 "blowbackParticleCount":0,
+								 "blowbackDuration":0,
+								 "blowbackLength":0,
+								 "blowbackSpread":0,
+								 "particleColor":[100,100,100,128]}
+					}				    
+}
+

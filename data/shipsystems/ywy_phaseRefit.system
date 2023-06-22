@@ -1,0 +1,21 @@
+{
+	"id":"ywy_phaseRefit",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"yoshgramm_wen_yards.shipsystems.ai.ywy_phaseRefit_sysAI",
+
+	"statsScript":"yoshgramm_wen_yards.shipsystems.ywy_phaseRefit",
+	
+	"canUseWhileRightClickSystemOn": true,
+
+	"jitterColor":[173,126,255,155],
+   	"jitterCopies":10,
+   	"jitterRange":0,
+   	"jitterRangeRadiusFraction":0.5,
+
+	"weaponGlowColor":[173,126,255,225],
+	"weaponTypes": [BALLISTIC,MISSILE],
+
+	"useSound":"system_recall_device",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

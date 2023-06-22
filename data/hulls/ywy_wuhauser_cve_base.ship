@@ -1,0 +1,203 @@
+{
+  "hullName": "Wu-hauser",
+  "hullId": "ywy_wuhauser_cve_base",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/YwY_ships/ywy_wuhauser_cve_base.png",
+  "style": "MIDLINE",
+  "height": 195,
+  "width": 140,
+  "center": [70, 97.5],
+  "collisionRadius": 111.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 109.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ywy_compositeEWS"
+  ],
+  "builtInWeapons": {
+    "WS0006": "ywy_acews_field",
+    "WS0007": "ywy_wuhauser_vecthrust",
+    "WS0008": "ywy_wuhauser_vecthrust",
+    "ywy_spinal": "ywy_GKKR"
+  },
+  "weaponSlots": [
+    {
+      "id": "ywy_spinal",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 7,
+      "angle": 0,
+      "locations": [41, -0],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": 90,
+      "locations": [-24.5, 18],
+      "renderOrderMod": 20
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": -90,
+      "locations": [-24.5, -18]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": 180,
+      "locations": [-44.5, -0],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": -90,
+      "locations": [
+        -9, -18.5,
+        -8, -18
+      ]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 90,
+      "locations": [
+        -9, 18.5,
+        -8, 19
+      ]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 7,
+      "angle": 0,
+      "locations": [0, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 25,
+      "angle": 138,
+      "locations": [76.5, 9]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 25,
+      "angle": -138,
+      "locations": [76.5, -9]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-65, -0.5],
+      "length": 40,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-63.5, 7.5],
+      "length": 12,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 50,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-63.5, -7.5],
+      "length": 12,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 50,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-47, 50.5],
+      "length": 25,
+      "width": 10,
+      "angle": 138,
+      "contrailSize": 40,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-46, -49.5],
+      "length": 25,
+      "width": 10,
+      "angle": -138,
+      "contrailSize": 40,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [75.5, 9],
+      "length": 3,
+      "width": 6,
+      "angle": 138,
+      "contrailSize": 120,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [75.5, -9],
+      "length": 3,
+      "width": 6,
+      "angle": -138,
+      "contrailSize": 120,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -63, -9.5,
+    -45, -11.5,
+    -42, -36.5,
+    -40, -40.5,
+    -49.5, -50.5,
+    -46.5, -53,
+    -38.5, -47.5,
+    -36, -49.5,
+    -24, -37,
+    -17, -36.5,
+    -9, -22.5,
+    45, -22.5,
+    45, -9.5,
+    96, -6.5,
+    96, 6.5,
+    45, 9.5,
+    45, 22.5,
+    -9, 22.5,
+    -17, 36.5,
+    -24, 37,
+    -36, 49.5,
+    -38.5, 47.5,
+    -46.5, 53,
+    -49.5, 50.5,
+    -40, 40.5,
+    -42, 36.5,
+    -45, 11.5,
+    -63, 9.5
+  ]
+}

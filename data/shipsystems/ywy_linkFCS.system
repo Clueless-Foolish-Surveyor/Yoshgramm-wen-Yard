@@ -1,0 +1,16 @@
+{
+	"id":"ywy_linkFCS",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	
+	"statsScript":"yoshgramm_wen_yards.shipsystems.ywy_linkFCS",
+
+	"fadeActivationSoundOnChargedown":false,
+	"useSound":"system_termination_sequence",
+	"outOfUsesSound":"gun_out_of_ammo",
+
+}
+
+
+
+

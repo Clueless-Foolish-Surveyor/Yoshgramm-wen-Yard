@@ -1,0 +1,86 @@
+{
+  "hullName": "Vonlubu",
+  "hullId": "ywy_fightbomb_craft",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/YwY_strikecraft/ywy_fightbomb_craft.png",
+  "style": "MIDLINE",
+  "height": 58,
+  "width": 49,
+  "center": [24.5, 29],
+  "collisionRadius": 28,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 27.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reduced_explosion",
+    "No_wep_dam",
+    "no_weapon_flux",
+    "ywy_WEP"
+  ],
+  "builtInWeapons": {
+    "WS0001": "ywy_fightbomb_gun",
+    "WS0002": "ywy_fightbomb_msl"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 25,
+      "angle": 0,
+      "locations": [15, 0.5],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [-11, 0.5],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 180,
+      "locations": [-4.5, 0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-19, 0.5],
+      "length": 25,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 118,
+      "style": "CUSTOM",
+      "styleId": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    20, 2,
+    20, -1,
+    17, -3,
+    2, -4,
+    -9.5, -16,
+    -14, -16,
+    -16, -13,
+    -10, -6.5,
+    -15.5, -5,
+    -19.5, -3,
+    -19.5, 4,
+    -15.5, 5.5,
+    -10, 7.5,
+    -16, 14,
+    -14, 17,
+    -9.5, 17,
+    2, 5,
+    17, 4
+  ]
+}

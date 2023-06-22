@@ -1,0 +1,55 @@
+{
+  "id": "ywy_heavyinter_MSGP_l",
+  "specClass": "projectile",
+  "projectileSpecId": "vulcan_shot",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "turretSprite": "graphics/YwY_sc_weps/ywy_heavyinter_MSgp_l.png",
+  "hardpointSprite": "graphics/YwY_sc_weps/ywy_heavyinter_MSgp_l.png",
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    8.5,
+    1,
+    8.5,
+    -1,
+    10.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    15.5,
+    1,
+    15.5,
+    -1,
+    17.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 10,
+    "spread": 6,
+    "particleSizeMin": 6,
+    "particleSizeRange": 8,
+    "particleDuration": 0.3,
+    "particleCount": 4,
+    "particleColor": [
+      255,
+      210,
+      95,
+      75
+    ]
+  },
+  "fireSoundTwo": "ywy_MDGP_fire"
+}

@@ -1,0 +1,77 @@
+{
+	"id":"ywy_APFSDS_SRM",
+	"specClass":"missile",
+	"onHitEffect":"yoshgramm_wen_yards.scripts.weapons.ywy_APFSDS_sabotFrag",
+	"missileType":"MIRV",
+	"sprite":"graphics/YwY_missiles/ywy_APFSDS_SRM.png",
+	"size":[5,16],
+	"center":[3,8.5],
+	"collisionRadius":15,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[234,235,173,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":85, # purely visual
+	"armingTime": 0.12,
+	"noEngineGlowTime": 0.12,
+	"engineSpec": { "turnAcc": 900,
+					"turnRate": 10,
+					"acc": 1600,
+					"dec": 900,
+					},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-8, 0],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						#"engineColor":[255,145,75,255],
+						"engineColor": [255,145,75,255],
+						"contrailDuration":1,
+						"contrailWidthMult":0.5,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":.5, # how far away from engine it starts
+						"contrailColor":[100,100,100,150],
+				    	"glowSizeMult":1.5,
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+					"width": 6.0,
+					"length": 20.0,
+				    "angle":180.0}],
+	"behaviorSpec":{"behavior":"MIRV",
+					"splitRange":250,
+					"splitRangeRange":60,
+					"minTimeToSplit":0.5,
+					"canSplitEarly":true,
+					"splitSound":"ywy_srm_splitShot",
+					"numShots":1,
+					"damage":200,
+					"impact":15,
+					"emp":0, # needs to match highlight in weapon_data.csv
+					"damageType":KINETIC,
+					"hitpoints":500,
+					"evenSpread":true,
+					"arc":20,
+					"spreadInaccuracy":0,
+					#"spreadSpeed":300,
+					"spreadSpeed":1100,
+					"spreadSpeedRange":550,
+					"projectileRange":800, # only needed if not a missile
+					"projectileSpec":"ywy_APFSDS_sabot",
+					"debrisSmall": 6,
+					"debrisMedium": 0,
+					"debrisLarge": 0,
+					"smokeSpec":{"particleSizeMin":4.0,
+								 "particleSizeRange":8.0,
+								 "cloudParticleCount":7,
+								 "cloudDuration":0.5,
+								 "cloudRadius":12.0,
+								 "blowbackParticleCount":0,
+								 "blowbackDuration":0,
+								 "blowbackLength":0,
+								 "blowbackSpread":0,
+								 "particleColor":[161,143,130,200]}
+					}				    
+}
+

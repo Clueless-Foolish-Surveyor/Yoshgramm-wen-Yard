@@ -1,0 +1,18 @@
+{
+  "baseHullId":"ywy_fightbomb_SUPERcraft",
+  "skinHullId":"ywy_fightbomb_SUPERcraft_system",
+  "hullName":"Super Vonlubu (System)",
+  "baseValueMult":1,
+  #"ordnancePoints":28,
+  "descriptionId":"ywy_fightbomb_SUPERcraft",  # optional
+  "descriptionPrefix":"A version of the wing used in the Variable Deployment shipsystem.",
+  "tags":[],
+  "tech":"Yoshgramm-wen Yards",
+  "spriteName": "graphics/YwY_strikecraft/ywy_fighterbomb_SUPERcraft.png",
+  "removeWeaponSlots":[], 		# ids
+  "removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+  #"removeBuiltInMods":["civgrade"], 		# hullmod ids
+  "removeBuiltInWeapons":[], 		# weapon slot ids
+  "builtInMods":["ywy_VWAI"],
+  "builtInWeapons":{},
+}

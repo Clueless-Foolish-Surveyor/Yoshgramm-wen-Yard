@@ -1,0 +1,61 @@
+{
+  "id": "ywy_dronefighter_mslpod",
+  "specClass": "projectile",
+  "projectileSpecId": "ywy_microMsl",
+  "type": "MISSILE",
+  "size": "SMALL",
+  "turretSprite": "graphics/YwY_sc_weps/ywy_aerospacesuperiority_wepPort.png",
+  "hardpointSprite": "graphics/YwY_sc_weps/ywy_aerospacesuperiority_wepPort.png",
+  "turretOffsets": [
+    0.5,
+    0.5,
+    0.5,
+    -0.5,
+    -0.5,
+    0.5,
+    -0.5,
+    -0.5
+  ],
+  "turretAngleOffsets": [
+    45,
+    -45,
+    90,
+    -90
+  ],
+  "hardpointOffsets": [
+    2.5,
+    0.5,
+    2.5,
+    -0.5,
+    2,
+    0.5,
+    2,
+    -0.5
+  ],
+  "hardpointAngleOffsets": [
+    45,
+    -45,
+    90,
+    -90
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 5,
+    "particleSizeRange": 7,
+    "cloudParticleCount": 10,
+    "cloudDuration": 0.35,
+    "cloudRadius": 10,
+    "blowbackParticleCount": 0,
+    "blowbackDuration": 0,
+    "blowbackLength": 0,
+    "blowbackSpread": 0,
+    "particleColor": [
+      156,
+      156,
+      156,
+      75
+    ]
+  },
+  "fireSoundTwo": "ywy_mslBat_fire"
+}

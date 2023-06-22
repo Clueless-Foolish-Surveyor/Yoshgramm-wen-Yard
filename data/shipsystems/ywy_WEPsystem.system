@@ -1,0 +1,17 @@
+{
+	"id":"ywy_WEPsystem",
+	"type":"WEAPON",
+	"aiType":"FLARE_JAMMER",
+	
+	"weaponDataId":"flarelauncher2",
+    "outOfUsesSound":"gun_out_of_ammo",
+	
+	#"weaponGlowColor":[55,200,255,255],
+ 	#"weaponTypes":[SYSTEM],
+
+ 	"aiHints":{
+    		"activeSpeedIncrease":50,
+    		"burstMovementPotential":0,
+    		"averageSpeedIncrease":25,
+    	}
+}

@@ -1,0 +1,249 @@
+{
+  "hullName": "Lichter-bo",
+  "hullId": "ywy_lichterbo_cv_base",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/YwY_ships/ywy_lichterbo_cv_base.png",
+  "style": "MIDLINE",
+  "height": 280,
+  "width": 145,
+  "center": [72.5, 140],
+  "collisionRadius": 149,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 144.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ywy_lichterbo_atmoOps"
+  ],
+  "builtInWeapons": {
+    "ywy_spinal": "ywy_EWS"
+  },
+  "weaponSlots": [
+    {
+      "id": "ywy_spinal",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [7, 35.5],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 16.5,
+      "locations": [-20, 46.5],
+      "renderOrderMod": 20
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 101.5,
+      "locations": [-52, 38.5],
+      "renderOrderMod": 25
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": -161.5,
+      "locations": [-82, 29.5],
+      "renderOrderMod": 30
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 320,
+      "angle": 180,
+      "locations": [-74, -30.5],
+      "renderOrderMod": 30
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 320,
+      "angle": 0,
+      "locations": [18, -30.5],
+      "renderOrderMod": 25
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 70,
+      "angle": -41.5,
+      "locations": [53, -36.5],
+      "renderOrderMod": 20
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 70,
+      "angle": -41.5,
+      "locations": [91, -32.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        5, -0,
+        16.5, -0
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        51.5, -0,
+        59.5, -0
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        91.5, -0,
+        102.5, -0
+      ]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -18, 29.5,
+        -10.5, 32
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-133, 19.5],
+      "length": 50,
+      "width": 27,
+      "angle": 180,
+      "contrailSize": 105,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-133, -20.5],
+      "length": 50,
+      "width": 27,
+      "angle": 180,
+      "contrailSize": 105,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-80.5, 51.5],
+      "length": 45,
+      "width": 25,
+      "angle": 156.5,
+      "contrailSize": 92,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-80.5, -51.5],
+      "length": 45,
+      "width": 25,
+      "angle": -156.5,
+      "contrailSize": 92,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-45, 61],
+      "length": 45,
+      "width": 25,
+      "angle": 159,
+      "contrailSize": 92,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-45, -61],
+      "length": 45,
+      "width": 25,
+      "angle": -159,
+      "contrailSize": 92,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    138.5, 0,
+    127.5, 21,
+    108.5, 25.5,
+    74, 40.5,
+    68.5, 38.5,
+    62.5, 29.5,
+    49, 31,
+    -37, 71,
+    -42, 67,
+    -48.5, 55,
+    -39, 50,
+    -43, 49,
+    -70, 60,
+    -76.5, 57,
+    -83, 45,
+    -75.5, 40,
+    -86, 37,
+    -92.5, 31,
+    -115.5, 31,
+    -133.5, 26.5,
+    -131.5, 11.5,
+    -138, 0,
+    -131.5, -11.5,
+    -133.5, -26.5,
+    -115.5, -31,
+    -97.5, -31,
+    -76.5, -42,
+    -83.5, -45,
+    -78.5, -56.5,
+    -70, -59.5,
+    -27, -42,
+    -47.5, -55.5,
+    -42.5, -66.5,
+    -36.5, -70.5,
+    26.5, -42,
+    32.5, -35.5,
+    38, -35.5,
+    52, -47.5,
+    56.5, -32.5,
+    69.5, -44,
+    61.5, -31,
+    76.5, -31,
+    90, -43.5,
+    94.5, -28.5,
+    107.5, -40,
+    99.5, -28,
+    118.5, -26,
+    128, -22.5
+  ]
+}
