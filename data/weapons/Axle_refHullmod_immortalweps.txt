@@ -1,0 +1,17 @@
+public class test_ImmortalWeapons extends BaseHullMod {
+
+    public static final float HEALTH_BONUS = 99999f;
+    
+        @Override
+    public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
+        stats.getWeaponHealthBonus().modifyPercent(id, HEALTH_BONUS);
+    }
+    
+        @Override
+    public String getDescriptionParam(int index, HullSize hullSize) {
+        if (index == 0) return "" + (int) HEALTH_BONUS;
+        return null;
+    }
+
+
+}
