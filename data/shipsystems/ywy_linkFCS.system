@@ -1,7 +1,9 @@
 {
 	"id":"ywy_linkFCS",
 	"type":"STAT_MOD",
-	"aiType":"WEAPON_BOOST",
+	#"aiType":"WEAPON_BOOST",
+	"aiType":"CUSTOM",
+	"aiScript":"yoshgramm_wen_yards.shipsystems.ai.ywy_linkFCS_sysAI",
 	
 	"statsScript":"yoshgramm_wen_yards.shipsystems.ywy_linkFCS",
 
