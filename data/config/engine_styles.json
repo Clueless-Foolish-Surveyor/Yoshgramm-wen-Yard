@@ -1,0 +1,104 @@
+{
+  # To be used by Yard strikecraft.
+  # Closest to midline template with minor differences.
+  "YWY_MID_STRIKECRAFT": {
+    "mode": "QUAD_STRIP",
+    "engineColor": [247,196,88,255],
+    "contrailDuration": 2,
+    "contrailWidthMult": 1.35,
+    "contrailWidthAddedFractionAtEnd": 1.25,
+    "contrailMinSeg": 6,
+    "contrailMaxSpeedMult": 0.5,
+    "contrailAngularVelocityMult": 0,
+
+    "contrailColor": [211,194,151,25],
+    "type":"GLOW"
+  },
+
+  # To be used by the Lohen-li-class destroyer and the Wuhauser-class escort carrier.
+  # Smaller glow, shorter-lived contrail, yellow end of midline engine color.
+  "YWY_MID_DD": {
+
+    "mode": "QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+
+    #"engineColor": [ 255,145,75,255 ], # MIDLINE DEFAULT
+    #"engineCampaignColor": [ 255,145,75,255 ], # MIDLINE DEFAULT
+
+    "engineColor": [247,196,88,255],
+    "engineCampaignColor": [247,196,88,255],
+    "contrailDuration": 0.5f,
+    "contrailWidthMult": 2,
+    "contrailWidthAddedFractionAtEnd": 2,  # can be negative. makes trail spread out/narrow at the end
+    "contrailMinSeg": 10, # min segment length, in pixels
+    "contrailMaxSpeedMult": 0.35f,
+    "contrailAngularVelocityMult": 1.35f,
+
+    #"contrailColor": [ 100,100,100,25 ], # MIDLINE DEFAULT
+    #"contrailCampaignColor": [ 150,120,100,75 ], # MIDLINE DEFAULT
+
+    "contrailColor": [211,194,151,25],
+    "contrailCampaignColor": [211,194,151,75],
+
+    "type": "GLOW", # GLOW or SMOKE; additive or regular blend mode
+    "glowSprite": "graphics/fx/engineglow32b.png",
+    "glowOutline": "graphics/fx/engineflame32b.png",
+
+    #"glowAlternateColor": [134,221,253,150], # MIDLINE DEFAULT
+
+    "glowAlternateColor": [242,183,26,150],
+    "engineGlowGlowMult": 1.5f,
+    "glowSizeMult": 0.8f,
+
+  },
+
+  # To be used by the Litcher-bo-class fleet carrier.
+  # Sizeable glow, longest-lived contrail, orange-end of midline engine color.
+  "YWY_MID_CV": {
+
+    "mode": "QUAD_STRIP",
+    "engineColor": [255,119,0,255],
+    "engineCampaignColor": [255,119,0,255],
+    "contrailDuration": 3.2f,
+    "contrailWidthMult": 2,
+    "contrailWidthAddedFractionAtEnd": 1.4,
+    "contrailMinSeg": 25,
+    "contrailMaxSpeedMult": 0.5f,
+    "contrailAngularVelocityMult": 1f,
+    "contrailColor": [141,97,59,75],
+    "contrailCampaignColor": [141,97,59,125],
+
+    "type": "GLOW",
+    "glowSprite": "graphics/fx/engineglow32b.png",
+    "glowOutline": "graphics/fx/engineflame32b.png",
+    "glowAlternateColor": [255,160,77,150],
+    "engineGlowGlowMult": 1.6f,
+    "glowSizeMult": 0.9f,
+
+  },
+
+  # To be used by the Luohoff-class heavy cruiser.
+  # Largest glow, longer lived contrails than DD but shorter lived than the CV, red end of midline engine color.
+  "YWY_MID_CA": {
+
+    "mode": "QUAD_STRIP",
+    "engineColor": [255,87,53,255],
+    "engineCampaignColor": [255,87,53,255],
+    "contrailDuration": 1.6f,
+    "contrailWidthMult": 1.7f,
+    "contrailWidthAddedFractionAtEnd": 1.2,
+    "contrailMinSeg": 35,
+    "contrailMaxSpeedMult": 0.75f,
+    "contrailAngularVelocityMult": 1.5f,
+    "contrailColor": [192,109,93,100],
+    "contrailCampaignColor": [192,109,93,150],
+
+    "type": "GLOW",
+    "glowSprite": "graphics/fx/engineglow32b.png",
+    "glowOutline": "graphics/fx/engineflame32b.png",
+    "glowAlternateColor": [255,128,103,150],
+    "engineGlowGlowMult": 1.7f,
+    "glowSizeMult": 1.4f,
+
+  },
+
+}

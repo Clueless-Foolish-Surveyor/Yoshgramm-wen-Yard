@@ -1,4 +1,44 @@
 {
+#HULL STYLES
+
+	#Ship engine idle loop
+	"ywy_engine_loop":{
+		"sounds":[
+			{"file":"sounds/YwY_hull_sfx/ywy_engine_yardtek_00_fighter_rocket.ogg","pitch":0.67,"volume":1}, #index 0
+			{"file":"sounds/YwY_hull_sfx/ywy_engine_yardtek_00_fighter_jet.ogg","pitch":0.67,"volume":1}, #index 1
+			{"file":"sounds/YwY_hull_sfx/ywy_engine_yardtek_01_light.ogg","pitch":1,"volume":1}, #index 2
+			{"file":"sounds/YwY_hull_sfx/ywy_engine_yardtek_02_heavy.ogg","pitch":1,"volume":1}, #index 3
+		],
+
+		"YWY_SHIP_HULL":{"sounds":[2,3], "pitch":1, "volume":0.5},
+		"YWY_FIGHTER_LOW":{"sounds":[0], "pitch":1, "volume":0.5},
+		"YWY_FIGHTER_HIGH":{"sounds":[1], "pitch":1, "volume":0.5},
+		"FRIGATE": {"sounds": [2], "pitch":1, "volume":0.4},
+		"DESTROYER": {"sounds": [2], "pitch":1, "volume":0.4},
+		"CRUISER": {"sounds": [3], "pitch":1, "volume":0.4},
+		"CAPITAL_SHIP": {"sounds": [3], "pitch":1, "volume":0.4},
+	},
+
+	#Ship engine accelerate SFX
+	"ywy_engine_accel":{
+		"sounds":[
+			{"file":"sounds/YwY_hull_sfx/ywy_engine_accel_01.ogg", "pitch":1, "volume":1}, #index 0
+		],
+
+		"YWY_SHIP_HULL": {"sounds": [0], "pitch":1, "volume":0.5 },
+		"YWY_FIGHTER_LOW": {"sounds": [0], "pitch":1, "volume":0.5 },
+		"YWY_FIGHTER_HIGH": {"sounds": [0], "pitch":1, "volume":0.5 },
+		"FRIGATE": {"sounds": [0], "pitch":1, "volume":0.4 },
+		"DESTROYER": {"sounds": [0], "pitch":1, "volume":0.4 },
+		"CRUISER": {"sounds": [0], "pitch":1, "volume":0.4 },
+		"CAPITAL_SHIP": {"sounds": [0], "pitch":1, "volume":0.4 },
+	},
+
+	#Ship EMP loop
+
+	#Ship shield Burnout SFX
+
+	#Ship shield Raise and Lower SFX
 
 #WEAPONS
 

@@ -3,7 +3,7 @@
   "hullId": "ywy_fightbomb_craft",
   "hullSize": "FIGHTER",
   "spriteName": "graphics/YwY_strikecraft/ywy_fightbomb_craft.png",
-  "style": "MIDLINE",
+  "style": "YWY_FIGHTER_LOW",
   "height": 58,
   "width": 49,
   "center": [24.5, 29],
@@ -60,7 +60,7 @@
       "angle": 180,
       "contrailSize": 118,
       "style": "CUSTOM",
-      "styleId": "MIDLINE"
+      "styleId": "YWY_MID_STRIKECRAFT"
     }
   ],
   "bounds": [

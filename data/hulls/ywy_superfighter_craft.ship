@@ -3,7 +3,7 @@
   "hullId": "ywy_superfighter_craft",
   "hullSize": "FIGHTER",
   "spriteName": "graphics/YwY_strikecraft/ywy_aerospacesuperiority_craft.png",
-  "style": "MIDLINE",
+  "style": "YWY_FIGHTER_HIGH",
   "height": 44,
   "width": 66,
   "center": [33, 22],
@@ -186,7 +186,8 @@
       "width": 6,
       "angle": 180,
       "contrailSize": 90,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_STRIKECRAFT"
     },
     {
       "location": [-10.5, -16],
@@ -194,7 +195,8 @@
       "width": 6,
       "angle": -180,
       "contrailSize": 90,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_STRIKECRAFT"
     },
     {
       "location": [-10.5, 13],
@@ -202,7 +204,8 @@
       "width": 6,
       "angle": 180,
       "contrailSize": 90,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_STRIKECRAFT"
     },
     {
       "location": [-10.5, -13],
@@ -210,7 +213,8 @@
       "width": 6,
       "angle": -180,
       "contrailSize": 90,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_STRIKECRAFT"
     }
   ],
   "bounds": [

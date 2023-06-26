@@ -3,7 +3,7 @@
   "hullId": "ywy_heavyinter_SUPERcraft",
   "hullSize": "FIGHTER",
   "spriteName": "graphics/YwY_strikecraft/ywy_heavyinter_SUPERcraft.png",
-  "style": "MIDLINE",
+  "style": "YWY_FIGHTER_HIGH",
   "height": 58,
   "width": 59,
   "center": [29.5, 29],
@@ -68,7 +68,8 @@
       "width": 8,
       "angle": 180,
       "contrailSize": 108,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_STRIKECRAFT"
     },
     {
       "location": [0, -14],
@@ -76,7 +77,8 @@
       "width": 8,
       "angle": 180,
       "contrailSize": 108,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_STRIKECRAFT"
     },
     {
       "location": [0, 13],
@@ -84,7 +86,8 @@
       "width": 8,
       "angle": 180,
       "contrailSize": 108,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_STRIKECRAFT"
     },
     {
       "location": [0, -12],
@@ -92,7 +95,8 @@
       "width": 8,
       "angle": -180,
       "contrailSize": 108,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_STRIKECRAFT"
     }
   ],
   "bounds": [

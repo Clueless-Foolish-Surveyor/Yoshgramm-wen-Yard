@@ -3,7 +3,7 @@
   "hullId": "ywy_lohenli_dd_base",
   "hullSize": "DESTROYER",
   "spriteName": "graphics/YwY_ships/ywy_lohenli_dd_base.png",
-  "style": "MIDLINE",
+  "style": "YWY_SHIP_HULL",
   "height": 197,
   "width": 90,
   "center": [45, 99],
@@ -125,7 +125,8 @@
       "width": 20,
       "angle": 180,
       "contrailSize": 92,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_DD"
     },
     {
       "location": [-82.5, 26.5],
@@ -133,7 +134,8 @@
       "width": 9,
       "angle": 180,
       "contrailSize": 112,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_DD"
     },
     {
       "location": [-82.5, -26],
@@ -141,7 +143,8 @@
       "width": 9,
       "angle": -180,
       "contrailSize": 112,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_DD"
     },
     {
       "location": [-35, 39],
@@ -149,7 +152,8 @@
       "width": 10,
       "angle": 90,
       "contrailSize": 120,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_DD"
     },
     {
       "location": [-35, -39],
@@ -157,7 +161,8 @@
       "width": 10,
       "angle": -90,
       "contrailSize": 120,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_DD"
     },
     {
       "location": [45, 22],
@@ -165,7 +170,8 @@
       "width": 10,
       "angle": 135,
       "contrailSize": 120,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_DD"
     },
     {
       "location": [45, -22],
@@ -173,7 +179,8 @@
       "width": 10,
       "angle": -135,
       "contrailSize": 120,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_DD"
     }
   ],
   "bounds": [

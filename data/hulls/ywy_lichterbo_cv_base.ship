@@ -3,7 +3,7 @@
   "hullId": "ywy_lichterbo_cv_base",
   "hullSize": "CRUISER",
   "spriteName": "graphics/YwY_ships/ywy_lichterbo_cv_base.png",
-  "style": "MIDLINE",
+  "style": "YWY_SHIP_HULL",
   "height": 280,
   "width": 145,
   "center": [72.5, 140],
@@ -153,7 +153,8 @@
       "width": 27,
       "angle": 180,
       "contrailSize": 105,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_CV"
     },
     {
       "location": [-133, -20.5],
@@ -161,7 +162,8 @@
       "width": 27,
       "angle": 180,
       "contrailSize": 105,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_CV"
     },
     {
       "location": [-80.5, 51.5],
@@ -169,7 +171,8 @@
       "width": 25,
       "angle": 156.5,
       "contrailSize": 92,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_CV"
     },
     {
       "location": [-80.5, -51.5],
@@ -177,7 +180,8 @@
       "width": 25,
       "angle": -156.5,
       "contrailSize": 92,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_CV"
     },
     {
       "location": [-45, 61],
@@ -185,7 +189,8 @@
       "width": 25,
       "angle": 159,
       "contrailSize": 92,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_CV"
     },
     {
       "location": [-45, -61],
@@ -193,7 +198,8 @@
       "width": 25,
       "angle": -159,
       "contrailSize": 92,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_CV"
     }
   ],
   "bounds": [

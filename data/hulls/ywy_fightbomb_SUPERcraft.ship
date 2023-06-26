@@ -3,7 +3,7 @@
   "hullId": "ywy_fightbomb_SUPERcraft",
   "hullSize": "FIGHTER",
   "spriteName": "graphics/YwY_strikecraft/ywy_fighterbomb_SUPERcraft.png",
-  "style": "MIDLINE",
+  "style": "YWY_FIGHTER_LOW",
   "height": 58,
   "width": 49,
   "center": [24.5, 29],
@@ -83,7 +83,7 @@
       "angle": 180,
       "contrailSize": 118,
       "style": "CUSTOM",
-      "styleId": "MIDLINE"
+      "styleId": "YWY_MID_STRIKECRAFT"
     },
     {
       "location": [-23.5, 5],
@@ -92,7 +92,7 @@
       "angle": 180,
       "contrailSize": 90,
       "style": "CUSTOM",
-      "styleId": "HIGH_TECH"
+      "styleId": "YWY_MID_CV"
     },
     {
       "location": [-23.5, -5],
@@ -101,7 +101,7 @@
       "angle": -180,
       "contrailSize": 90,
       "style": "CUSTOM",
-      "styleId": "HIGH_TECH"
+      "styleId": "YWY_MID_CV"
     }
   ],
   "bounds": [

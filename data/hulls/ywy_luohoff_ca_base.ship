@@ -3,7 +3,7 @@
   "hullId": "ywy_luohoff_ca_base",
   "hullSize": "CRUISER",
   "spriteName": "graphics/YwY_ships/ywy_luohoff_ca_baseA.png",
-  "style": "MIDLINE",
+  "style": "YWY_SHIP_HULL",
   "height": 291,
   "width": 150,
   "center": [75, 145.5],
@@ -126,7 +126,8 @@
       "width": 7,
       "angle": 180,
       "contrailSize": 110,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_CA"
     },
     {
       "location": [-111.5, -19.5],
@@ -134,7 +135,8 @@
       "width": 7,
       "angle": -180,
       "contrailSize": 110,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_CA"
     },
     {
       "location": [-132.5, 38.5],
@@ -142,7 +144,8 @@
       "width": 9,
       "angle": 180,
       "contrailSize": 110,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_CA"
     },
     {
       "location": [-132.5, -38.5],
@@ -150,7 +153,8 @@
       "width": 9,
       "angle": -180,
       "contrailSize": 110,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_CA"
     },
     {
       "location": [-132.5, 30.5],
@@ -158,7 +162,8 @@
       "width": 9,
       "angle": 180,
       "contrailSize": 110,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_CA"
     },
     {
       "location": [-132.5, -30.5],
@@ -166,7 +171,8 @@
       "width": 9,
       "angle": -180,
       "contrailSize": 110,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_CA"
     },
     {
       "location": [-131.5, 34.5],
@@ -174,7 +180,8 @@
       "width": 20,
       "angle": 180,
       "contrailSize": 90,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_CA"
     },
     {
       "location": [-131.5, -34.5],
@@ -182,7 +189,8 @@
       "width": 20,
       "angle": -180,
       "contrailSize": 90,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_CA"
     }
   ],
   "bounds": [

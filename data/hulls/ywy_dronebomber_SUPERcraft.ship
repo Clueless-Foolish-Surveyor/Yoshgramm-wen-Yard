@@ -3,7 +3,7 @@
   "hullId": "ywy_dronebomber_SUPERcraft",
   "hullSize": "FIGHTER",
   "spriteName": "graphics/YwY_strikecraft/ywy_dronebomber_craft.png",
-  "style": "MIDLINE",
+  "style": "YWY_FIGHTER_LOW",
   "height": 58,
   "width": 50,
   "center": [25, 29],
@@ -105,7 +105,8 @@
       "width": 16,
       "angle": 180,
       "contrailSize": 100,
-      "style": "MIDLINE"
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_STRIKECRAFT"
     },
     {
       "location": [-23, -1.5],
@@ -113,7 +114,7 @@
       "width": 8,
       "angle": -165.5,
       "contrailSize": 128,
-      "style": "LOW_TECH_FIGHTER"
+      "style": "MIDLINE"
     },
     {
       "location": [-23, 1.5],
@@ -121,7 +122,7 @@
       "width": 8,
       "angle": 165.5,
       "contrailSize": 128,
-      "style": "LOW_TECH_FIGHTER"
+      "style": "MIDLINE"
     }
   ],
   "bounds": [
