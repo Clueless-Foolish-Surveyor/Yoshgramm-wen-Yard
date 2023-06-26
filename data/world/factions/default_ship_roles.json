@@ -1,0 +1,53 @@
+{
+  # should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+  # for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+  #"combatSmallForSmallFleet":{},
+
+  # For frigates and smaller
+  #"combatSmall":{},
+
+  # For destroyers and larger frigates
+  "combatMedium": {
+
+    "ywy_lohenli_dd_Export":5,
+    "ywy_lohenli_dd_Militia":3,
+    "ywy_lohenli_dd_Standard":2,
+
+  },
+
+  # For cruisers and larger destroyers
+  "combatLarge": {
+
+    "ywy_luohoff_ca_Escort":2,
+    "ywy_luohoff_ca_Export":3,
+    "ywy_luohoff_ca_Line":1,
+    "ywy_luohoff_ca_Militia":4,
+
+    "ywy_luohoff_ca_skm1_Militia":10,
+    "ywy_luohoff_ca_skm2_Militia": 10,
+    "ywy_luohoff_ca_skm3_Militia":10,
+    "ywy_luohoff_ca_skm4_Militia":10,
+
+  },
+
+  # Carriers
+  # For destroyer-size and smaller carriers
+  "carrierSmall": {
+
+    "ywy_wuhauser_cve_ASC":1,
+    "ywy_wuhauser_cve_Export":5,
+    "ywy_wuhauser_cve_Militia":3,
+    "ywy_wuhauser_cve_Missile":1,
+
+  },
+
+  # For cruiser-size and larger destroyer-size carriers
+  "carrierMedium": {
+
+    "ywy_lichterbo_cv_Command":2,
+    "ywy_lichterbo_cv_Export":3,
+    "ywy_lichterbo_cv_Militia":3,
+    "ywy_lichterbo_cv_Standard":2,
+
+  },
+}
