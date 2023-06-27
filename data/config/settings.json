@@ -4,6 +4,17 @@
 	},
 	
 	"graphics":{
+
+		"blueprint_packages": {
+
+			"ywy_light_kit":"graphics/YwY_icons/YwY_cargo/ywy_lighthull.png",
+			"ywy_heavy_kit":"graphics/YwY_icons/YwY_cargo/ywy_heavyhull.png",
+			"ywy_strike_kit":"graphics/YwY_icons/YwY_cargo/ywy_strikehull.png",
+			"ywy_lwep_kit":"graphics/YwY_icons/YwY_cargo/ywy_arsenallight.png",
+			"ywy_hwep_kit":"graphics/YwY_icons/YwY_cargo/ywy_arsenalheavy.png",
+			"ywy_drone_kit":"graphics/YwY_icons/YwY_cargo/ywy_droneTek.png",
+
+		},
 		
 		"ywy_acews_vfx_frames":{
 			"ywy_acews_vfx_frame0": "graphics/YwY_VFX/ywy_wuhauser/ywy_wuhauser_ews_00.png",
