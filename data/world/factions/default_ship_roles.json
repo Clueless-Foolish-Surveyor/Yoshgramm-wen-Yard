@@ -34,10 +34,10 @@
   # For destroyer-size and smaller carriers
   "carrierSmall": {
 
-    "ywy_wuhauser_cve_ASC":1,
-    "ywy_wuhauser_cve_Export":5,
+    "ywy_wuhauser_cve_ASC":2,
+    "ywy_wuhauser_cve_Export":3,
     "ywy_wuhauser_cve_Militia":3,
-    "ywy_wuhauser_cve_Missile":1,
+    "ywy_wuhauser_cve_Missile":2,
 
   },
 
