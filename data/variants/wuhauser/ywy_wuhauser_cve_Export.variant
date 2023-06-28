@@ -1,7 +1,7 @@
 {
   "variantId": "ywy_wuhauser_cve_Export",
   "hullId": "ywy_wuhauser_cve_base",
-  "displayName": "Export",
+  "displayName": "Standard (E)",
   "goalVariant": true,
   "fluxCapacitors": 13,
   "fluxVents": 9,

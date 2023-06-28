@@ -1,16 +1,17 @@
 {
-  "variantId": "ywy_lichterbo_cv_Export",
+  "variantId": "ywy_lichterbo_cv_MilitiaAlt",
   "hullId": "ywy_lichterbo_cv_base",
-  "displayName": "Standard (E)",
-  "goalVariant": true,
+  "displayName": "Militia",
+  "goalVariant": false,
   "fluxCapacitors": 20,
   "fluxVents": 20,
-  "quality": 6,
+  "quality": 3,
   "permaMods": [],
   "hullMods": [
-    "pointdefenseai",
     "missleracks",
-    "recovery_shuttles"
+    "recovery_shuttles",
+    "expanded_deck_crew",
+    "pointdefenseai"
   ],
   "weaponGroups": [
     {
@@ -30,27 +31,26 @@
     },
     {
       "autofire": true,
-      "mode": "ALTERNATING",
+      "mode": "LINKED",
       "weapons": {
-        "WS0001": "heatseeker",
-        "WS0005": "heatseeker"
+        "WS0001": "lightag",
+        "WS0002": "lightag",
+        "WS0003": "lightag",
+        "WS0004": "lightag",
+        "WS0005": "lightag"
       }
     },
     {
-      "autofire": true,
+      "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0002": "lrpdlaser",
-        "WS0003": "lrpdlaser",
-        "WS0004": "lrpdlaser"
-      }
+      "weapons": {}
     }
   ],
   "modules": [],
   "wings": [
-    "ywy_fightbomb_wing",
-    "ywy_fightbomb_wing",
-    "broadsword_wing",
-    "broadsword_wing"
+    "sarissa_wing",
+    "talon_wing",
+    "talon_wing",
+    "talon_wing"
   ]
 }

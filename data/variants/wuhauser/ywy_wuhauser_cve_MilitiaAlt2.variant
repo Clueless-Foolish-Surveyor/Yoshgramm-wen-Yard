@@ -1,0 +1,49 @@
+{
+  "variantId": "ywy_wuhauser_cve_MilitiaAlt2",
+  "hullId": "ywy_wuhauser_cve_base",
+  "displayName": "Militia",
+  "goalVariant": false,
+  "fluxCapacitors": 6,
+  "fluxVents": 4,
+  "quality": 3,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "assault_package"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "ywy_spinal": "ywy_GKKR"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sabot"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "harpoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "mininglaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "piranha_wing",
+    "piranha_wing"
+  ]
+}

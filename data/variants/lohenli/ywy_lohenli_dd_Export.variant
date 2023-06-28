@@ -1,10 +1,10 @@
 {
   "variantId": "ywy_lohenli_dd_Export",
   "hullId": "ywy_lohenli_dd_base",
-  "displayName": "Export",
+  "displayName": "Standard (E)",
   "goalVariant": true,
   "fluxCapacitors": 18,
-  "fluxVents": 13,
+  "fluxVents": 14,
   "quality": 6,
   "permaMods": [],
   "hullMods": [
@@ -20,10 +20,16 @@
     },
     {
       "autofire": false,
-      "mode": "ALTERNATING",
+      "mode": "LINKED",
       "weapons": {
-        "WS0001": "harpoonpod",
-        "WS0002": "harpoonpod"
+        "WS0002": "sabotpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "harpoonpod"
       }
     },
     {

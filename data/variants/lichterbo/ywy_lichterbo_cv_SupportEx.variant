@@ -1,16 +1,15 @@
 {
-  "variantId": "ywy_lichterbo_cv_Export",
+  "variantId": "ywy_lichterbo_cv_SupportEx",
   "hullId": "ywy_lichterbo_cv_base",
-  "displayName": "Standard (E)",
+  "displayName": "Support (E)",
   "goalVariant": true,
-  "fluxCapacitors": 20,
+  "fluxCapacitors": 21,
   "fluxVents": 20,
   "quality": 6,
   "permaMods": [],
   "hullMods": [
-    "pointdefenseai",
-    "missleracks",
-    "recovery_shuttles"
+    "recovery_shuttles",
+    "missleracks"
   ],
   "weaponGroups": [
     {
@@ -49,8 +48,8 @@
   "modules": [],
   "wings": [
     "ywy_fightbomb_wing",
-    "ywy_fightbomb_wing",
-    "broadsword_wing",
-    "broadsword_wing"
+    "warthog_wing",
+    "warthog_wing",
+    "thunder_wing"
   ]
 }

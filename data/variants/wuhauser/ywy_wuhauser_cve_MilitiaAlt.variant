@@ -1,22 +1,21 @@
 {
-  "variantId": "ywy_wuhauser_cve_ASC",
+  "variantId": "ywy_wuhauser_cve_MilitiaAlt",
   "hullId": "ywy_wuhauser_cve_base",
-  "displayName": "Anti-Smallcraft",
-  "goalVariant": true,
-  "fluxCapacitors": 8,
-  "fluxVents": 6,
-  "quality": 10,
+  "displayName": "Militia",
+  "goalVariant": false,
+  "fluxCapacitors": 14,
+  "fluxVents": 11,
+  "quality": 3,
   "permaMods": [],
   "hullMods": [
-    "pointdefenseai",
-    "turretgyros"
+    "expanded_deck_crew",
+    "converted_hangar"
   ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "ywy_XPDCG",
         "ywy_spinal": "ywy_GKKR"
       }
     },
@@ -24,19 +23,21 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "ywy_XPDCG",
-        "WS0002": "ywy_XPDCG"
+        "WS0001": "vulcan",
+        "WS0002": "vulcan",
+        "WS0003": "mininglaser"
       }
     },
     {
-      "autofire": true,
+      "autofire": false,
       "mode": "LINKED",
       "weapons": {}
     }
   ],
   "modules": [],
   "wings": [
-    "ywy_heavyinter_wing",
-    "ywy_heavyinter_wing"
+    "talon_wing",
+    "talon_wing",
+    "talon_wing"
   ]
 }

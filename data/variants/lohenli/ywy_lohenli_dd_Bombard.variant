@@ -1,0 +1,52 @@
+{
+  "variantId": "ywy_lohenli_dd_Bombard",
+  "hullId": "ywy_lohenli_dd_base",
+  "displayName": "Bombardment",
+  "goalVariant": true,
+  "fluxCapacitors": 13,
+  "fluxVents": 10,
+  "quality": 10,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "ywy_MSLS_RPMMed",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "ywy_LRBMB",
+        "WS0002": "ywy_LRBMB"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "ywy_GKKR_single",
+        "WS0004": "ywy_GKKR_single"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "ywy_HEPBP"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

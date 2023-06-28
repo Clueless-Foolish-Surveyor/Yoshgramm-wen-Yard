@@ -1,16 +1,16 @@
 {
-  "variantId": "ywy_lohenli_dd_Militia",
+  "variantId": "ywy_lohenli_dd_BombardmentEx",
   "hullId": "ywy_lohenli_dd_base",
-  "displayName": "Militia",
-  "goalVariant": false,
-  "fluxCapacitors": 20,
+  "displayName": "Bombardment (E)",
+  "goalVariant": true,
+  "fluxCapacitors": 15,
   "fluxVents": 14,
-  "quality": 3,
+  "quality": 6,
   "permaMods": [],
   "hullMods": [
+    "missleracks",
     "ywy_MSLS_RPMMed",
-    "auxiliarythrusters",
-    "reinforcedhull"
+    "auxiliarythrusters"
   ],
   "weaponGroups": [
     {
@@ -22,17 +22,23 @@
       "autofire": false,
       "mode": "ALTERNATING",
       "weapons": {
-        "WS0001": "heavyac",
-        "WS0002": "heavyac"
+        "WS0001": "pilum",
+        "WS0002": "pilum"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "heatseeker",
+        "WS0004": "heatseeker"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "mininglaser",
-        "WS0004": "mininglaser",
-        "WS0005": "vulcan"
+        "WS0005": "lightdualmg"
       }
     }
   ],

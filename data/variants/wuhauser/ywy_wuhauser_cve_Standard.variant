@@ -1,22 +1,18 @@
 {
-  "variantId": "ywy_wuhauser_cve_ASC",
+  "variantId": "ywy_wuhauser_cve_Standard",
   "hullId": "ywy_wuhauser_cve_base",
-  "displayName": "Anti-Smallcraft",
+  "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 8,
-  "fluxVents": 6,
+  "fluxCapacitors": 11,
+  "fluxVents": 14,
   "quality": 10,
   "permaMods": [],
-  "hullMods": [
-    "pointdefenseai",
-    "turretgyros"
-  ],
+  "hullMods": [],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "ywy_XPDCG",
         "ywy_spinal": "ywy_GKKR"
       }
     },
@@ -24,19 +20,20 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "ywy_XPDCG",
-        "WS0002": "ywy_XPDCG"
+        "WS0001": "ywy_MSPDS",
+        "WS0002": "ywy_MSPDS",
+        "WS0003": "ywy_MSPDS"
       }
     },
     {
-      "autofire": true,
+      "autofire": false,
       "mode": "LINKED",
       "weapons": {}
     }
   ],
   "modules": [],
   "wings": [
-    "ywy_heavyinter_wing",
-    "ywy_heavyinter_wing"
+    "ywy_fightbomb_wing",
+    "ywy_fightbomb_wing"
   ]
 }
