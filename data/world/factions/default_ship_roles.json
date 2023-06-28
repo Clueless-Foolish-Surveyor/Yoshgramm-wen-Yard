@@ -23,10 +23,17 @@
     "ywy_luohoff_ca_Line":1,
     "ywy_luohoff_ca_Militia":4,
 
-    "ywy_luohoff_ca_skm1_Militia":10,
-    "ywy_luohoff_ca_skm2_Militia": 10,
-    "ywy_luohoff_ca_skm3_Militia":10,
-    "ywy_luohoff_ca_skm4_Militia":10,
+    "ywy_luohoff_ca_skm1_Militia":5,
+    "ywy_luohoff_ca_skm1_Export":5,
+
+    "ywy_luohoff_ca_skm2_Militia":5,
+    "ywy_luohoff_ca_skm2_Export":5,
+
+    "ywy_luohoff_ca_skm3_Militia":5,
+    "ywy_luohoff_ca_skm3_Export":5,
+
+    "ywy_luohoff_ca_skm4_Militia":5,
+    "ywy_luohoff_ca_skm4_Export":5,
 
   },
 
