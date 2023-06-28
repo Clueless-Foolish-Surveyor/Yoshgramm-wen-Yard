@@ -1,8 +1,8 @@
 {
   "variantId": "ywy_luohoff_ca_skm3_Export",
   "hullId": "ywy_luohoff_ca_skm3",
-  "displayName": "Export",
-  "goalVariant": true,
+  "displayName": "Line (E)",
+  "goalVariant": false,
   "fluxCapacitors": 30,
   "fluxVents": 19,
   "quality": 6,
