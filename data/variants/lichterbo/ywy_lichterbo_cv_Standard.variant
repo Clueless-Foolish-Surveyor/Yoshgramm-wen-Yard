@@ -3,7 +3,7 @@
   "hullId": "ywy_lichterbo_cv_base",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 20,
+  "fluxCapacitors": 17,
   "fluxVents": 25,
   "quality": 10,
   "permaMods": [],
