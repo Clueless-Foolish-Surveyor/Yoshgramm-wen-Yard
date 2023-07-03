@@ -19,20 +19,15 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "pdlaser",
-        "WS0002": "pdlaser",
-        "WS0005": "hellbore",
-        "WS0006": "mininglaser",
-        "WS0007": "mininglaser",
-        "WS0008": "mininglaser",
-        "WS0009": "mininglaser",
         "ywy_spinal": "ywy_ASPBP"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0005": "hellbore"
+      }
     },
     {
       "autofire": false,
@@ -45,15 +40,22 @@
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0001": "pdlaser",
+        "WS0002": "pdlaser",
+        "WS0006": "mininglaser",
+        "WS0007": "mininglaser",
+        "WS0008": "mininglaser",
+        "WS0009": "mininglaser"
+      }
     },
     {
-      "autofire": true,
+      "autofire": false,
       "mode": "LINKED",
       "weapons": {}
     },
     {
-      "autofire": true,
+      "autofire": false,
       "mode": "LINKED",
       "weapons": {}
     },

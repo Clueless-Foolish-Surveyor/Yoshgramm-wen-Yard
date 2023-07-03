@@ -9,8 +9,7 @@
   "permaMods": [],
   "hullMods": [
     "missleracks",
-    "turretgyros",
-    "ywy_MSLS_RPMMed"
+    "turretgyros"
   ],
   "weaponGroups": [
     {
