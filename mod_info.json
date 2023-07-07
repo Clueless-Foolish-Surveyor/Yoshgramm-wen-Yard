@@ -2,7 +2,7 @@
     "id": "ywy_ships",
     "name": "Yoshgramm-wen Yards",
     "author": "Hyperspace_Surveyor (Forum)/Juliet_Delta_Tango_1-5 (Discord)",
-    "version": "Release v1.0.1a",
+    "version": "Release v1.0.1b",
     "description": "Distributes ships inspired by the designs seen in the Legend of the Galactic Heroes series, Gundam franchise, Space Battleship Yamato 2199, Macross SDFDYRL, Gunbuster, and a handful others. A work-in-progress ship pack.",
     "gameVersion": "0.96a-RC10",
     "modPlugin": "yoshgramm_wen_yards.scripts.YWY_ModPlugin",
