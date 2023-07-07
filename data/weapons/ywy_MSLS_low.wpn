@@ -35,7 +35,7 @@
   "barrelMode": "ALTERNATING_BURST",
   "animationType": "MUZZLE_FLASH",
   "muzzleFlashSpec": {
-    "length": 20,
+    "length": 10,
     "spread": 3,
     "particleSizeMin": 7,
     "particleSizeRange": 9,

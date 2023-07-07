@@ -1,7 +1,7 @@
 {
   "id": "ywy_BMSAC",
   "specClass": "projectile",
-  "projectileSpecId": "heavymg_shot",
+  "projectileSpecId": "mark9_shot",
   "type": "BALLISTIC",
   "size": "LARGE",
   "everyFrameEffect": "yoshgramm_wen_yards.scripts.weapons.ywy_BMSAC_SmokeFlash",

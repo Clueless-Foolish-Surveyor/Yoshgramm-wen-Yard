@@ -1,7 +1,7 @@
 {
   "id": "ywy_MSLS_med",
   "specClass": "projectile",
-  "projectileSpecId": "heavymg_shot",
+  "projectileSpecId": "heavyac_shot",
   "type": "BALLISTIC",
   "size": "MEDIUM",
   "displayArcRadius": 300,
@@ -35,12 +35,12 @@
   "barrelMode": "ALTERNATING_BURST",
   "animationType": "MUZZLE_FLASH",
   "muzzleFlashSpec": {
-    "length": 20,
-    "spread": 3,
-    "particleSizeMin": 7,
-    "particleSizeRange": 9,
-    "particleDuration": 0.2,
-    "particleCount": 10,
+    "length": 15,
+    "spread": 6,
+    "particleSizeMin": 8,
+    "particleSizeRange": 10,
+    "particleDuration": 0.25,
+    "particleCount": 12,
     "particleColor": [
       218,
       218,
