@@ -1,0 +1,18 @@
+{
+
+	"knownWeapons":{
+		"weapons":[
+			"ywy_HEPBP",
+			"ywy_EMPAC",
+		],
+	},
+
+	"weaponSellFrequency":{
+		"ywy_HEPBP":6,
+
+		"ywy_EMPAC":5,
+	},
+
+},
+
+

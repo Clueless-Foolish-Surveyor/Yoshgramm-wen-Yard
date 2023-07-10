@@ -1,0 +1,21 @@
+{
+
+	"knownFighters":{
+		"fighters":[
+			"ywy_dronebomber_wing",
+			"ywy_dronebomber_SUPERwing",
+
+			"ywy_superiorASF_wing",
+		],
+	},
+	
+	"fighterSellFrequency":{
+		"ywy_dronebomber_wing":5,
+		"ywy_dronebomber_SUPERwing":3,
+
+		"ywy_superiorASF_wing":2,
+	},
+
+},
+
+

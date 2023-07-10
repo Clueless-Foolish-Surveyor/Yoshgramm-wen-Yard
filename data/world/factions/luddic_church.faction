@@ -1,0 +1,96 @@
+{
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+
+		"ywy_lohenli_dd_Export":3,
+		"ywy_lohenli_dd_BombardmentEx":3,
+		"ywy_lohenli_dd_Militia":1,
+		"ywy_lohenli_dd_MilitiaAlt":1,
+		"ywy_lohenli_dd_MilitiaAlt2":1,
+		"ywy_lohenli_dd_MilitiaAlt3":1,
+
+		"ywy_wuhauser_cve_Export":3,
+		"ywy_wuhauser_cve_Militia":2,
+		"ywy_wuhauser_cve_MilitiaAlt":2,
+		"ywy_wuhauser_cve_MilitiaAlt2":1.5,
+		"ywy_wuhauser_cve_MilitiaAlt3":1.5,
+
+		"ywy_lichterbo_cv_Export":3,
+		"ywy_lichterbo_cv_SupportEx":3,
+		"ywy_lichterbo_cv_Militia":2,
+		"ywy_lichterbo_cv_MilitiaAlt":1.5,
+		"ywy_lichterbo_cv_Standard":0.5,
+
+		"ywy_luohoff_ca_Export":3,
+		"ywy_luohoff_ca_Militia":3,
+		"ywy_luohoff_ca_MilitaAlt":3,
+		"ywy_luohoff_ca_Escort":1,
+
+		"ywy_luohoff_ca_skm2_Export":3,
+		"ywy_luohoff_ca_skm2_Militia":7,
+
+		"ywy_luohoff_ca_skm3_Export":3,
+		"ywy_luohoff_ca_skm3_Militia":7,
+
+	},
+
+	"knownShips":{
+		"hulls":[
+			"ywy_lohenli_dd_base",
+			"ywy_wuhauser_cve_base",
+
+			"ywy_lichterbo_cv_base",
+			"ywy_luohoff_ca_base",
+
+			"ywy_luohoff_ca_skm2",
+			"ywy_luohoff_ca_skm3",
+		],
+	},
+
+	"knownFighters":{
+		"fighters":[
+			"ywy_fightbomb_wing",
+			"ywy_heavyinter_wing",
+		],
+	},
+	"knownWeapons":{
+		"weapons":[
+			"ywy_GKKR_single",
+			"ywy_GKKR_pod",
+
+			"ywy_MSPDS",
+			"ywy_XPDCG",
+			"ywy_CIMP",
+
+			"ywy_SRSMB",
+			"ywy_SRASMB",
+			"ywy_MSDCS",
+			"ywy_LRBMB",
+
+			"ywy_MSDCA",
+			"ywy_BMSAC",
+		],
+	},
+
+	"weaponSellFrequency":{
+		"ywy_GKKR_single":5,
+		"ywy_GKKR_pod":3,
+
+		"ywy_MSPDS":6,
+		"ywy_XPDCG":4,
+		"ywy_CIMP":6,
+
+		"ywy_SRSMB":5,
+		"ywy_SRASMB":5,
+		"ywy_MSDCS":5,
+		"ywy_LRBMB":4,
+
+		"ywy_MSDCA":5,
+		"ywy_BMSAC":4,
+	},
+	"fighterSellFrequency":{
+		"ywy_fightbomb_wing":4,
+		"ywy_heavyinter_wing":4,
+	},
+},
+

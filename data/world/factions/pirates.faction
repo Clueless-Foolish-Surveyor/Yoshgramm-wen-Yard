@@ -1,0 +1,76 @@
+{
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+		"ywy_lohenli_dd_Militia":2.5,
+		"ywy_lohenli_dd_MilitiaAlt":2.5,
+		"ywy_lohenli_dd_MilitiaAlt2":2.5,
+		"ywy_lohenli_dd_MilitiaAlt3":2.5,
+
+		"ywy_wuhauser_cve_Militia":2.5,
+		"ywy_wuhauser_cve_MilitiaAlt":2.5,
+		"ywy_wuhauser_cve_MilitiaAlt2":2.5,
+		"ywy_wuhauser_cve_MilitiaAlt3":2.5,
+	},
+
+	"knownShips":{
+		"hulls":[
+			"ywy_lohenli_dd_base",
+			"ywy_wuhauser_cve_base",
+		],
+	},
+
+	"knownFighters":{
+		"fighters":[
+			"ywy_fightbomb_wing",
+			"ywy_heavyinter_wing",
+		],
+	},
+
+	"knownWeapons":{
+		"weapons":[
+			"ywy_GKKR_single",
+			"ywy_GKKR_pod",
+
+			"ywy_MSPDS",
+			"ywy_XPDCG",
+			"ywy_CIMP",
+
+			"ywy_SRSMB",
+			"ywy_SRASMB",
+			"ywy_MSDCS",
+			"ywy_LRBMB",
+
+			"ywy_MSDCA",
+			"ywy_MSDCA_Pmod",
+			"ywy_BMSAC",
+		],
+	},
+
+	"weaponSellFrequency":{
+		"ywy_GKKR_single":5,
+		"ywy_GKKR_pod":3,
+
+		"ywy_MSPDS":6,
+		"ywy_XPDCG":4,
+		"ywy_CIMP":6,
+
+		"ywy_SRSMB":5,
+		"ywy_SRASMB":5,
+		"ywy_MSDCS":5,
+		"ywy_LRBMB":4,
+
+		"ywy_MSDCA":3,
+		"ywy_MSDCA_Pmod":5,
+		"ywy_BMSAC":4,
+	},
+	"fighterSellFrequency":{
+		"ywy_fightbomb_wing":4,
+		"ywy_heavyinter_wing":4,
+	},
+},
+
+
+
+
+
+
