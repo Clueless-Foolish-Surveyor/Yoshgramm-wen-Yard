@@ -3,12 +3,12 @@ name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating
 #Frigates,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Destroyers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Lohen-li,ywy_lohenli_dd_base,Line Destroyer,Yoshgramm-wen Yards,ywy_fluxShunt_jets,12,5250,600,4000,,300,80,,80,75,15,45,60,600,FRONT,,180,0.35,0.9,,,70,150,175,70,1.8,39,9,38000,5,12,420,0.25,12,10,,,,,,,,"ywy_lightHull_kit, merc, ind, hegemony, luddic_church, luddic_path, persean, pirates, sindrian_diktat",0.67,0.75,3,4,,202301
-Wuhauser,ywy_wuhauser_cve_base,Escort Carrier,Yoshgramm-wen Yards,ywy_hybridfeeder,10,4800,400,3200,,150,60,2,60,50,15,37,60,700,OMNI,,180,0.35,0.9,,,100,225,145,70,1.8,39,9,40000,5,10,360,0.25,10,8,,,,,,,CARRIER,"ywy_lightHull_kit, merc, ind, hegemony, luddic_church, luddic_path, persean, pirates",0.62,0.75,3,4,,202302
+Lohen-li,ywy_lohenli_dd_base,Line Destroyer,Yoshgramm-wen Yards,ywy_fluxShunt_jets,12,5250,600,4000,,300,80,,80,75,15,45,60,600,FRONT,,180,0.35,0.9,,,70,150,175,70,1.8,39,9,38000,5,12,420,0.25,12,10,,,,,,,,"ywy_lightHull_kit, merc, ind",0.67,0.75,3,4,,202301
+Wuhauser,ywy_wuhauser_cve_base,Escort Carrier,Yoshgramm-wen Yards,ywy_hybridfeeder,10,4800,400,3200,,150,60,2,60,50,15,37,60,700,OMNI,,180,0.35,0.9,,,100,225,145,70,1.8,39,9,40000,5,10,360,0.25,10,8,,,,,,,CARRIER,"ywy_lightHull_kit, merc, ind",0.62,0.75,3,4,,202302
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Cruisers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Licther-bo,ywy_lichterbo_cv_base,Fleet Carrier,Yoshgramm-wen Yards,ywy_variWing,25,7500,700,4500,,200,150,4,45,30,20,15,60,1500,FRONT,,270,0.45,0.85,,,170,400,300,175,1.8,97,8,115000,4,12,480,0.25,25,20,,,,,,,CARRIER,"ywy_heavyHull_kit, merc, ind, hegemony, luddic_church, persean",0.47,0.50,3,4,,202303
-Luohoff,ywy_luohoff_ca_base,Heavy Cruiser,Yoshgramm-wen Yards,ywy_linkFCS,30,9000,900,6500,,650,175,,70,60,20,25,60,2200,OMNI,,120,0.45,0.85,,,150,200,150,150,1.8,83,8,122000,4,12,420,0.25,30,25,,,,,,,,"ywy_heavyHull_kit, merc, ind, hegemony, luddic_church, persean, sindrian_diktat",0.38,0.50,3,4,,202304
+Licther-bo,ywy_lichterbo_cv_base,Fleet Carrier,Yoshgramm-wen Yards,ywy_variWing,25,7500,700,4500,,200,150,4,45,30,20,15,60,1500,FRONT,,270,0.45,0.85,,,170,400,300,175,1.8,97,8,115000,4,12,480,0.25,25,20,,,,,,,CARRIER,"ywy_heavyHull_kit, merc, ind",0.47,0.50,3,4,,202303
+Luohoff,ywy_luohoff_ca_base,Heavy Cruiser,Yoshgramm-wen Yards,ywy_linkFCS,30,9000,900,6500,,650,175,,70,60,20,25,60,2200,OMNI,,120,0.45,0.85,,,150,200,150,150,1.8,83,8,122000,4,12,420,0.25,30,25,,,,,,,,"ywy_heavyHull_kit, merc, ind",0.38,0.50,3,4,,202304
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Capitals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

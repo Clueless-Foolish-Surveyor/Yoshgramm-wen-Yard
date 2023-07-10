@@ -1,0 +1,69 @@
+{
+
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+		"ywy_lohenli_dd_Standard":2,
+		"ywy_lohenli_dd_Bombard":2,
+		"ywy_lohenli_dd_Export":3,
+		"ywy_lohenli_dd_BombardmentEx":3,
+
+		"ywy_luohoff_ca_Escort":3,
+		"ywy_luohoff_ca_Line":2,
+		"ywy_luohoff_ca_Export":5,
+
+		"ywy_luohoff_ca_skm3_Export":5,
+		"ywy_luohoff_ca_skm3_Milita":5,
+	},
+
+	"knownShips":{
+		"hulls":[
+			"ywy_lohenli_dd_base",
+			"ywy_luohoff_ca_base",
+
+			"ywy_luohoff_ca_skm3",
+		],
+	},
+
+	"knownWeapons":{
+		"weapons":[
+			"ywy_GKKR_single",
+			"ywy_GKKR_pod",
+
+			"ywy_HEPBP",
+			"ywy_MSPDS",
+			"ywy_XPDCG",
+			"ywy_CIMP",
+
+			"ywy_EMPAC",
+			"ywy_SRSMB",
+			"ywy_SRASMB",
+			"ywy_MSDCS",
+			"ywy_LRBMB",
+
+			"ywy_MSDCA",
+			"ywy_BMSAC",
+		],
+	},
+
+	"weaponSellFrequency":{
+		"ywy_GKKR_single":7,
+		"ywy_GKKR_pod":7,
+
+		"ywy_HEPBP":7,
+		"ywy_MSPDS":5,
+		"ywy_XPDCG":4,
+		"ywy_CIMP":8,
+
+		"ywy_EMPAC":6,
+		"ywy_SRSMB":6,
+		"ywy_SRASMB":6,
+		"ywy_MSDCS":4,
+		"ywy_LRBMB":6,
+
+		"ywy_MSDCA":4,
+		"ywy_BMSAC":3,
+	},
+
+},
+
+

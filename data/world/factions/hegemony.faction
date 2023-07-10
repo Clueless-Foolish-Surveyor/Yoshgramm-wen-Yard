@@ -1,0 +1,104 @@
+{
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+
+		"ywy_lohenli_dd_Standard":2,
+		"ywy_lohenli_dd_Bombard":2,
+		"ywy_lohenli_dd_Export":3,
+		"ywy_lohenli_dd_BombardmentEx":3,
+
+		"ywy_wuhauser_cve_Standard":3,
+		"ywy_wuhauser_cve_ASC":2,
+		"ywy_wuhauser_cve_Missile":2,
+		"ywy_wuhauser_cve_Export":3,
+
+		"ywy_lichterbo_cv_Standard":2,
+		"ywy_lichterbo_cv_Support":2,
+		"ywy_lichterbo_cv_Command":1,
+		"ywy_lichterbo_cv_Export":3,
+		"ywy_lichterbo_cv_SupportEx":2,
+
+		"ywy_luohoff_ca_Escort":3,
+		"ywy_luohoff_ca_Line":2,
+		"ywy_luohoff_ca_Export":5,
+
+		"ywy_luohoff_ca_skm2_Export": 10,
+
+	},
+
+	"knownShips":{
+		"hulls":[
+			"ywy_lohenli_dd_base",
+			"ywy_wuhauser_cve_base",
+
+			"ywy_lichterbo_cv_base",
+			"ywy_luohoff_ca_base",
+
+			"ywy_luohoff_ca_skm2",
+		],
+	},
+
+	"knownFighters":{
+		"fighters":[
+			"ywy_fightbomb_wing",
+			"ywy_fightbomb_SUPERwing",
+
+			"ywy_heavyinter_wing",
+			"ywy_heavyinter_SUPERwing",
+
+			"ywy_dronebomber_wing",
+			"ywy_dronebomber_SUPERwing",
+
+			"ywy_superiorASF_wing",
+		],
+	},
+
+	"knownWeapons":{
+		"weapons":[
+			"ywy_GKKR_single",
+			"ywy_GKKR_pod",
+
+			"ywy_MSPDS",
+			"ywy_XPDCG",
+			"ywy_CIMP",
+
+			"ywy_SRSMB",
+			"ywy_SRASMB",
+			"ywy_MSDCS",
+			"ywy_LRBMB",
+
+			"ywy_MSDCA",
+			"ywy_BMSAC",
+		],
+	},
+
+	"weaponSellFrequency":{
+		"ywy_GKKR_single":7,
+		"ywy_GKKR_pod":5,
+
+		"ywy_MSPDS":7,
+		"ywy_XPDCG":5,
+		"ywy_CIMP":7,
+
+		"ywy_SRSMB":6,
+		"ywy_SRASMB":6,
+		"ywy_MSDCS":6,
+		"ywy_LRBMB":5,
+
+		"ywy_MSDCA":6,
+		"ywy_BMSAC":5,
+	},
+	"fighterSellFrequency":{
+		"ywy_fightbomb_wing":6,
+		"ywy_fightbomb_SUPERwing":3,
+
+		"ywy_heavyinter_wing":6,
+		"ywy_heavyinter_SUPERwing":3,
+
+		"ywy_dronebomber_wing":3,
+		"ywy_dronebomber_SUPERwing":0.5,
+
+		"ywy_superiorASF_wing":0.5,
+	},     
+	
+},

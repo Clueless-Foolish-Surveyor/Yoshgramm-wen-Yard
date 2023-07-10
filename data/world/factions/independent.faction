@@ -1,0 +1,74 @@
+{
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+
+		"ywy_lohenli_dd_Export":1,
+		"ywy_lohenli_dd_BombardmentEx":1,
+		"ywy_lohenli_dd_Militia":3,
+		"ywy_lohenli_dd_MilitiaAlt": 2,
+		"ywy_lohenli_dd_MilitiaAlt2":1.5,
+		"ywy_lohenli_dd_MilitiaAlt3":1.5,
+
+		"ywy_wuhauser_cve_Export":0.5,
+		"ywy_wuhauser_cve_Militia":3,
+		"ywy_wuhauser_cve_MilitiaAlt":3,
+		"ywy_wuhauser_cve_MilitiaAlt2":2,
+		"ywy_wuhauser_cve_MilitiaAlt3":1.5,
+
+		"ywy_lichterbo_cv_Export":2,
+		"ywy_lichterbo_cv_SupportEx":1.5,
+		"ywy_lichterbo_cv_Militia":3,
+		"ywy_lichterbo_cv_MilitiaAlt":3,
+		"ywy_lichterbo_cv_Command":0.5,
+
+		"ywy_luohoff_ca_Export":3,
+		"ywy_luohoff_ca_Militia":3,
+		"ywy_luohoff_ca_MilitaAlt":3,
+		"ywy_luohoff_ca_Escort":1,
+
+		"ywy_luohoff_ca_skm1_Export":5,
+		"ywy_luohoff_ca_skm1_Militia":5,
+
+		"ywy_luohoff_ca_skm2_Export":5,
+		"ywy_luohoff_ca_skm2_Militia":5,
+
+		"ywy_luohoff_ca_skm3_Export":5,
+		"ywy_luohoff_ca_skm3_Militia":5,
+
+		"ywy_luohoff_ca_skm4_Export":5,
+		"ywy_luohoff_ca_skm4_Militia":5,
+
+	},
+
+	"weaponSellFrequency":{
+
+		"ywy_GKKR_single":8,
+		"ywy_GKKR_pod":7,
+
+		"ywy_HEPBP":4,
+		"ywy_MSPDS":8,
+		"ywy_XPDCG":6,
+		"ywy_CIMP":8,
+
+		"ywy_EMPAC":4,
+		"ywy_SRSMB":6,
+		"ywy_SRASMB":6,
+		"ywy_MSDCS":8,
+		"ywy_LRBMB":7,
+
+		"ywy_MSDCA":5,
+		"ywy_MSDCA_Pmod":5,
+		"ywy_BMSAC":4,
+
+	},
+	"fighterSellFrequency":{
+
+		"ywy_fightbomb_wing":7,
+		"ywy_fightbomb_SUPERwing":4,
+
+		"ywy_heavyinter_wing":7,
+		"ywy_heavyinter_SUPERwing":4,
+
+	},
+	
+},	
