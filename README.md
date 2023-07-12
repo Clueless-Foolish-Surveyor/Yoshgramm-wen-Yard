@@ -16,4 +16,4 @@ New weapons feature:
   - A large ballistic shotgun.
   - And a handful of others.
 
-![YwYShips_SpriteSheet_Ver6a](https://github.com/Clueless-Foolish-Surveyor/Yoshgramm-wen-Yard/assets/79179692/da030ec3-85c3-4873-9480-6bc268c70ccc)
+![YWY_Hull_Display_ver2](https://github.com/Clueless-Foolish-Surveyor/Yoshgramm-wen-Yard/assets/79179692/99a3ae12-88bb-4d51-8ded-2e06e55ceb76)
