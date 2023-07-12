@@ -38,7 +38,7 @@
 				    "length":1.0,
 				    "angle":180.0}],
 	"behaviorSpec":{"behavior":"MIRV",
-					"splitRange":1000000,
+					"splitRange":4000,
 					"splitRangeRange":0,
 					"minTimeToSplit":0.1,
 					"canSplitEarly":true,
@@ -57,7 +57,7 @@
 					"spreadSpeedRange":215,
 					"projectileRange":350, # only needed if not a missile
 					"projectileSpec":"ywy_pdcs_pellet",
-					"debrisSmall": 14,
+					"debrisSmall": 10,
 					"debrisMedium": 0,
 					"debrisLarge": 0,
 					"smokeSpec":{"particleSizeMin":10.0,
