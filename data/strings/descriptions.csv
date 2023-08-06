@@ -51,6 +51,7 @@ ywy_linkFCS,SHIP_SYSTEM,"Links the FCS of the spinal weapon to the AFCS, from wh
 ,,,,,,
 ywy_WEPsystem,SHIP_SYSTEM,"A built-in system package that deploys jamming flares that distract PD weapons and allows pilots to push their ride's engines beyond the limit, granting a boost to maneuverability and speed.",Maneuvering (Fighter),"A built-in system package that deploys jamming flares that distract PD weapons and allows pilots to push their ride's engines beyond the limit, granting a boost to maneuverability and speed.",,
 ywy_SEADflares,SHIP_SYSTEM,"Fires flares designed for Suppression of Enemy Air Defense (SEAD), drawing PD fire and when striking a target, unleashing EMP arcs to disable components.",Defensive (Fighter),"Fires flares designed for Suppression of Enemy Air Defense (SEAD), drawing PD fire and when striking a target, unleashing EMP arcs to disable components.",,
+ywy_CBDsystem,SHIP_SYSTEM,"Significantly boost speed and agility during an attack run. Boost drops once fighters finish attack run.",Maneuvering (Fighter),"Significantly boost speed and agility during an attack run. Boost drops once fighters finish attack run.",,
 ywy_phaseRefit,SHIP_SYSTEM,"Drawing from stored materials in phase space, rearms and repairs the strikecraft while phased; allowing it to stay engaged in combat for a longer period of time.",Utility (Fighter),"Drawing from stored materials in phase space, rearms and repairs the strikecraft while phased; allowing it to stay engaged in combat for a longer period of time.",,
 ,,,,,,
 #YWY WEAPONS,,,,,,
