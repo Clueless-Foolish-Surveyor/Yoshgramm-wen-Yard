@@ -1,5 +1,8 @@
 id,type,text1,text2,text3,notes,Column 07
 #YWY SHIPS,,,,,,
+ywy_teufu-ji_ffgd_base,SHIP,"Placeholder.
+
+Placeholder.",,,,
 ywy_lohenli_dd_base,SHIP,"One of Yoshgramm-wen's first produced designs and widely popular, the Lohen-li was designed to be a low cost, easily assembled, and capable workhorse vessel for low income buyers. Intended to operate in groups of itself or with similar ships, the Lohen-li are to be used as a literal line of guns in a battle - hence its official designation as a ""line destroyer."" Characteristic of this ""wall of guns"" belief that Yoshgramm-wen subscribes to, the Lohen-li mounts a spinal weapon along its length - a Metal Storm Launching System - and forward facing missile hardpoints.
 
 Said to be the first design to be drawned up in the infancy of Yoshgramm-wen Yards, the Lohen-li's release on the pre-Collapse market was what propelled the Yards into renown and popularity. Its low price, easy nanoforge-optional assembly, and overall performance were (and still are) attractive points that saw the ship proliferate the Domain's frontiers. Used extensively by Domain patrol groups as effective gap fillers and by independent groups as screening vessels, the Lohen-li serves admirably well in its role as a ""line destroyer.""",,,,
@@ -80,7 +83,9 @@ An attempt at a more active electronic warfare, Yoshgramm-wen Yards's EWS origin
 ywy_ASPBP,WEAPON,"Anti-Ship Particle Beam. Distinctive signature weapon of the Luohoff-class heavy cruiser, generates an immense rate of hard flux in exchange for a trio of charged particle beams strong enough to cut through capital ship armor. Requires a long recovery period after firing and, if necessary, flux venting.
 
 To solidify the Luohoff-class cruiser's role as the key element in a battle line, Yoshgramm-wen Yards developed a high-powered particle beam projector dervied from various mining laser models, and enlarging it before mounting the three of them onto the Luohoff-class's bow. Initial testing showed performance that outstripped the Phase Lance, though later iterations scaled back the destructive power due to the insane amount of hard flux generated - enough that it required the initial prototype to be directly hooked into the testing facility's power plant to be feasibly fired. To compromise between sustainability and stopping power, the Luohoff-class was given three of the final iteration models, enough to let it punch up against capital ships.",,,,
-,,,,,,
+ywy_PPBP,WEAPON,"Pulse Particle Beam.
+
+Placeholder.",,,,
 ,,,,,,
 #Modular Weps,,,,,,
 ywy_HEPBP,WEAPON,"High-Energy Particle Beam. Dual-barrled beam weapon supercharged for high damage and range. High rate of flux generation and slight reduction to turret rotation speed due to bulk, but seamlessly can transition between point defense and ship-to-ship combat when needed.",,,,

@@ -20,6 +20,7 @@ Hits to the shield do not count to either the apply or decay timer.",Active Elec
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #PPC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ASPB 'Shipbreaker' Projector,ywy_ASPBP,5,,50000,800,1600,,,0,15,,,,,ENERGY,,2600,0.15,7,2,3,,,,,3500,,,,,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, SHOW_IN_CODEX","energy16, beam10, strike13, no_sell, no_drop, no_drop_salvage",,Yoshgramm-wen Yards,,Strike,,,,,,,,,,2023106
+PPB 'Drillbit' Projector,ywy_PPBP,5,,35000,650,8300,,,0,25,,15,0.4,1,ENERGY,,6600,0,0,0.1,0.3,,,,,4700,,,,,,,"SYSTEM, STRIKE, USE_VS_FRIGATES","energy8, beam7, strike5, no_sell, no_drop, no_drop_salvage",,Yoshgramm-wen Yards,,Strike/Suppression,,,,,,,,,,2023137
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #YwY Modular Weapons,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Small,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -74,6 +75,7 @@ Drone Bomber Nose,ywy_dronebomber_noseMask,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM
 Drone Bomber Body,ywy_dronebomber_bodyMask,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,2023129
 Drone Bomber Tail,ywy_dronebomber_tailMask,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,2023130
 Superiority ASF Drone Core,ywy_dronefighter_core,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,2023133
+Teufu-ji Hull Mask 1,ywy_teufuji_wpnCover,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,2023138
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #References,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Vulcan Cannon,vulcan,1,,200,250,,25,,1,75,4,,,,FRAGMENTATION,1,,0,0.05,1,,0,15,1,15,,800,,,10,,,PD,"pd7, SR, lowtech_bp, merc, ind",,,,Point Defense,,,,,,,,,,1
