@@ -53,5 +53,6 @@
     MISSILE_FF,
     MISSILE_NO_FF
   ],
-  "fireSoundTwo": "ywy_hepbp_loop"
+  "fireSoundOne": "ywy_srm_splitShot",
+  "fireSoundTwo": "ywy_mslBat_fire"
 }
