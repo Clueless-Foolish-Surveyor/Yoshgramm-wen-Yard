@@ -11,6 +11,9 @@
   "shieldCenter": [51, 12],
   "shieldRadius": 84,
   "viewOffset": 0,
+  "builtInMods": [
+    "ywy_propellant"
+  ],
   "builtInWeapons": {
     "WS0003": "ywy_teufuji_wpnCover",
     "ywy_spinal": "ywy_PPBP"

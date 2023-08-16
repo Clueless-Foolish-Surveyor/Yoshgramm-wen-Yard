@@ -1,7 +1,7 @@
 name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,c/s,c/f,f/s,f/f,crew/s,crew/f,hints,tags,rarity,breakProb,minPieces,maxPieces,travel drive,number
 #YY Products,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Frigates,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Teufu-ji,ywy_teufuji_ffgd_base,Experimental Frigate,Yoshgramm-wen Yards,displacer,15,2000,300,2300,,250,60,,110,100,100,55,70,350,OMNI,,90,0.3,1,,,0,0,0,30,1,30,10,77000,8,15,260,0.25,15,15,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, RENDER_ENGINES_BELOW_HULL","ywy_droneTek_kit, remnant",0.42,0.85,3,5,,202312
+Teufu-ji,ywy_teufuji_ffgd_base,Experimental Frigate,Yoshgramm-wen Yards,ywy_propellBoost,15,2000,300,2300,,250,60,,110,100,100,55,70,350,OMNI,,90,0.3,1,,,0,0,0,30,1,30,10,77000,8,15,260,0.25,15,15,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, RENDER_ENGINES_BELOW_HULL","ywy_droneTek_kit, remnant",0.42,0.85,3,5,,202312
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Destroyers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Lohen-li,ywy_lohenli_dd_base,Line Destroyer,Yoshgramm-wen Yards,ywy_fluxShunt_jets,12,5250,600,4000,,300,80,,80,75,15,45,60,600,FRONT,,180,0.35,0.9,,,70,150,175,70,1.8,39,9,38000,5,12,420,0.25,12,10,,,,,,,,"ywy_lightHull_kit, merc, ind",0.9,0.75,3,4,,202301
