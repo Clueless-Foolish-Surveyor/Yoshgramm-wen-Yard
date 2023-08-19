@@ -1,7 +1,7 @@
 name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
 #YwY Ship Systems,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Teuful-ji,,,,,,,,,,,,,,,,,,,,,,,,,,,
-XAM Injection Boost,ywy_propellBoost,,,,,,,,2,0.22,1,0.3,2,0.05,,,,,,TRUE,TRUE,TRUE,,,,,graphics/icons/hullsys/maneuvering_jets.png
+XPROPL Injection,ywy_propellBoost,,,,,,,,2,0.22,1,0.3,2,0.05,,,,,,TRUE,TRUE,TRUE,,,,,graphics/icons/hullsys/maneuvering_jets.png
 #Lohen-li,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Flux Shunting Thrusters,ywy_fluxShunt_jets,,,,,,,,,,1,7,1,5,,,,,,,,,,,,,graphics/icons/hullsys/maneuvering_jets.png
 #Wuhauser,,,,,,,,,,,,,,,,,,,,,,,,,,,
