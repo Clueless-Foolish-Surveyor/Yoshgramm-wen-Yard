@@ -1,0 +1,22 @@
+{
+  "variantId": "ywy_teufuji_ffgd_testbed",
+  "hullId": "ywy_teufuji_ffgd_base",
+  "displayName": "Testbed",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 10,
+  "quality": 20,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "ywy_spinal": "ywy_PPBP"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
