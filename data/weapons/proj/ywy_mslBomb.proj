@@ -22,7 +22,7 @@
 	"armingTime":0.2,
 	"noEngineGlowTime":0.2, # time spent without the engine glow being rendered				 
 	"engineSpec":{"turnAcc":240,
-				  "turnRate":30,
+				  "turnRate":75,
 				  "acc":1600,
 				  "dec":400},
 	"engineSlots":[{"id":"ES1",
