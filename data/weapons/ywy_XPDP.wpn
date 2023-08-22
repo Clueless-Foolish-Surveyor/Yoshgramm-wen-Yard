@@ -1,0 +1,40 @@
+{
+  "id": "ywy_XPDP",
+  "specClass": "projectile",
+  "projectileSpecId": "ywy_mslBomb",
+  "type": "MISSILE",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/YwY_weapons/ywy_xPDP_base_turret.png",
+  "turretGlowSprite": "graphics/YwY_weapons/ywy_xPDP_glow_turret.png",
+  "hardpointSprite": "graphics/YwY_weapons/ywy_xPDP_base_hard.png",
+  "hardpointGlowSprite": "graphics/YwY_weapons/ywy_xPDP_glow_hard.png",
+  "glowColor": [
+    220,
+    134,
+    249,
+    100
+  ],
+  "turretOffsets": [
+    2.5,
+    4,
+    2.5,
+    -4
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    6.5,
+    4,
+    6.5,
+    -4
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "GLOW",
+  "fireSoundTwo": "mine_teleport"
+}

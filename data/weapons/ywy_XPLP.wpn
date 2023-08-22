@@ -1,0 +1,44 @@
+{
+  "id": "ywy_XPLP",
+  "specClass": "projectile",
+  "projectileSpecId": "ywy_mslBomb",
+  "type": "MISSILE",
+  "size": "SMALL",
+  "everyFrameEffect": "yoshgramm_wen_yards.scripts.weapons.ywy_XPLP_phaseReload",
+  "turretSprite": "graphics/YwY_weapons/ywy_xPLP_base_turret.png",
+  "hardpointSprite": "graphics/YwY_weapons/ywy_xPLP_base_hard.png",
+  "turretOffsets": [
+    8,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    11.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 7,
+    "particleSizeRange": 9,
+    "cloudParticleCount": 7,
+    "cloudDuration": 2,
+    "cloudRadius": 10,
+    "blowbackParticleCount": 0,
+    "blowbackDuration": 0,
+    "blowbackLength": 0,
+    "blowbackSpread": 0,
+    "particleColor": [
+      125,
+      75,
+      25,
+      105
+    ]
+  },
+  "fireSoundTwo": "annihilator_fire"
+}
