@@ -35,6 +35,20 @@
     0
   ],
   "barrelMode": "LINKED",
-  "animationType": "GLOW",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 10,
+    "spread": 10,
+    "particleSizeMin": 8,
+    "particleSizeRange": 12,
+    "particleDuration": 0.7,
+    "particleCount": 10,
+    "particleColor": [
+      220,
+      134,
+      249,
+      130
+    ]
+  },
   "fireSoundTwo": "mine_teleport"
 }

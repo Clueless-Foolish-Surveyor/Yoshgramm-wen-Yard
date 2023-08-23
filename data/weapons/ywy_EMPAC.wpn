@@ -15,23 +15,17 @@
     255
   ],
   "turretOffsets": [
-    17.5,
-    1.5,
-    17.5,
-    -1.5
+    21,
+    0
   ],
   "turretAngleOffsets": [
-    0,
     0
   ],
   "hardpointOffsets": [
-    22,
-    1.5,
-    22,
-    -1.5
+    24,
+    0
   ],
   "hardpointAngleOffsets": [
-    0,
     0
   ],
   "barrelMode": "ALTERNATING",
