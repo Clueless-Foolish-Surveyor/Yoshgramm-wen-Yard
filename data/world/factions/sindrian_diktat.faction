@@ -33,6 +33,7 @@
 			"ywy_MSPDS",
 			"ywy_XPDCG",
 			"ywy_CIMP",
+			"ywy_MSASS",
 
 			"ywy_EMPAC",
 			"ywy_SRSMB",
@@ -53,6 +54,7 @@
 		"ywy_MSPDS":5,
 		"ywy_XPDCG":4,
 		"ywy_CIMP":8,
+		"ywy_MSASS":4,
 
 		"ywy_EMPAC":6,
 		"ywy_SRSMB":6,

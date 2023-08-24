@@ -1,4 +1,15 @@
 {
+	"variantOverrides": {
+
+		"ywy_teufuji_ffgd_testbed":10,
+
+	},
+
+	"knownShips":{
+		"hulls":[
+			"ywy_teufuji_ffgd_base",
+		],
+	},
 
 	"knownFighters":{
 		"fighters":[
@@ -14,6 +25,24 @@
 		"ywy_dronebomber_SUPERwing":3,
 
 		"ywy_superiorASF_wing":2,
+	},
+
+	"knownWeapons": {
+		"weapons": [
+			"ywy_HEPBP",
+			"ywy_EMPAC",
+			"ywy_XPLP",
+			"ywy_XPDP",
+		],
+	},
+
+	"weaponSellFrequency": {
+		"ywy_HEPBP": 6,
+
+		"ywy_EMPAC": 5,
+
+		"ywy_XPLP": 5,
+		"ywy_XPDP": 4,
 	},
 
 },
