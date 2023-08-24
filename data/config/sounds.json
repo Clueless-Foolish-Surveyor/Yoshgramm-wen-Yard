@@ -139,11 +139,11 @@
 
 	#SAUP PAC Fire
 	"ywy_SAUP_PAC_fire":
-		[
-			{ "file": "sounds/YwY_wpn_sfx/ywy_empac_fire1.ogg","pitch": 0.8,"volume": 0.20 },
-			{ "file": "sounds/YwY_wpn_sfx/ywy_empac_fire2.ogg","pitch": 0.8,"volume": 0.20 },
-			{ "file": "sounds/YwY_wpn_sfx/ywy_empac_fire3.ogg","pitch": 0.8,"volume": 0.20 },
-		],
+	[
+		{ "file": "sounds/YwY_wpn_sfx/ywy_empac_fire1.ogg","pitch": 0.8,"volume": 0.20 },
+		{ "file": "sounds/YwY_wpn_sfx/ywy_empac_fire2.ogg","pitch": 0.8,"volume": 0.20 },
+		{ "file": "sounds/YwY_wpn_sfx/ywy_empac_fire3.ogg","pitch": 0.8,"volume": 0.20 },
+	],
 	
 	#Kill Rod Launch
 	"ywy_killrod_fire":
@@ -226,6 +226,14 @@
 	"ywy_aspbp_loop":
 	[
 		{"file":"sounds/YwY_wpn_sfx/ywy_aspbp_beam.ogg","pitch":0.55,"volume":1}
+	],
+
+	#SAUP PAC Fire
+	"ywy_XPPBP_fire":
+	[
+		{"file":"sounds/YwY_wpn_sfx/ywy_empac_fire1.ogg","pitch": 0.6,"volume": 0.45},
+		{"file":"sounds/YwY_wpn_sfx/ywy_empac_fire2.ogg","pitch": 0.6,"volume": 0.45},
+		{"file":"sounds/YwY_wpn_sfx/ywy_empac_fire3.ogg","pitch": 0.6,"volume": 0.45},
 	],
 	
 }

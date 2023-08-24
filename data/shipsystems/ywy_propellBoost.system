@@ -13,7 +13,7 @@
 	"engineGlowWidthMult":1.25f,
 	"engineGlowGlowMult":1.5f,
 
-	"useSound":"ywy_srm_splitShot",
+	"useSound":"ywy_killrod_fire",
 	#"loopSound":"ywy_hepbp_loop",
 	"outOfUsesSound":"gun_out_of_ammo",
 	
