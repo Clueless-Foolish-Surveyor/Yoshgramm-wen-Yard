@@ -60,7 +60,7 @@ Popshot BMFGP,ywy_heavyinter_BMFGP_r,5,,730,750,,30,,15,32,6,24,,,KINETIC,0,,0,0
 SEAD Flare Launcher,ywy_SEADflare_launcher,,,,450,,20,300,15,,,,0,,ENERGY,0,0,0,0.1,2,0.25,30,30,0,0,,330,135,10,850,,,"SYSTEM, PD, PD_ALSO, ANTI_FTR, DO_NOT_AIM",,,,,,,,,,,,,,,2023127
 SEAD Flare Launcher (Nuke),ywy_SEADflare_launcher2,,,,450,,20,150,15,,,,0,,ENERGY,0,0,0,0.1,2,0.25,30,30,0,0,,330,135,10,850,,,"SYSTEM, PD, PD_ALSO, ANTI_FTR, DO_NOT_AIM",,,,,,,,,,,,,,,2023127b
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Internal Bomb Bay,ywy_dronebomber_bay,5,,400,250,,750,,150,15,6,2,,,HIGH_EXPLOSIVE,0,,0,0.8,2,0.1,0,0,0,0,,200,40,25,1400,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, BOMB","he0, no_sell, no_drop, no_drop_salvage",,,,Strike,,,,,,,,,TRUE,2023131
+Internal Bomb Bay,ywy_dronebomber_bay,5,,400,350,,750,,150,15,6,2,,,HIGH_EXPLOSIVE,0,,0,0.8,2,0.1,0,0,0,0,,200,40,3.33,1400,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, BOMB","he0, no_sell, no_drop, no_drop_salvage",,,,Strike,,,,,,,,,TRUE,2023131
 Sunshine NFGO,ywy_dronebomber_nuke,5,,3500,1200,,1500,1500,60,20,16,1,,,ENERGY,0,,0,1,,,0,0,0,0,,600,250,9.5,175,,,"SYSTEM, STRIKE, USE_VS_FRIGATES","energy0, no_sell, no_drop, no_drop_salvage",,,,Strike,,,,,,,,,TRUE,2023132
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Saltshaker MSV Pod,ywy_dronefighter_gun,5,,580,500,,15,,2,40,3,300,,,HIGH_EXPLOSIVE,0,,0,0.02,6,0.08,0,14,2,6,,860,,,15,,,"SYSTEM, PD, PD_ALSO","pd8, he5, no_sell, no_drop, no_drop_salvage",,Yoshgramm-wen Yards,,Point Defense,,,,,,,,,TRUE,2023134
