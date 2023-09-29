@@ -26,7 +26,7 @@
 									 "particleSizeRange":8.0,
 									 "particleDuration":1.15,
 									 "particleCount":20,
-									 "particleColor":[255,255,255,255],
+									 "particleColor":[255,255,255,165],
 									 "sound":"ywy_srm_splitShot"},
 					}
 					

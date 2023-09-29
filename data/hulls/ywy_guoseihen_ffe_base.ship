@@ -1,0 +1,214 @@
+{
+  "hullName": "Guoseihen",
+  "hullId": "ywy_guoseihen_ffe_base",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/YwY_ships/ywy_guoseihen_ffe_base.png",
+  "style": "YWY_SHIP_HULL",
+  "height": 142,
+  "width": 80,
+  "center": [40, 71],
+  "collisionRadius": 77.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 75,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0004": "ywy_wuhauser_vecthrust",
+    "WS0005": "ywy_wuhauser_vecthrust",
+    "WS0006": "ywy_wuhauser_vecthrust",
+    "WS0007": "ywy_wuhauser_vecthrust",
+    "ywy_spinal": "ywy_ESPAA",
+    "ywy_spinal2": "ywy_ESPAA"
+  },
+  "weaponSlots": [
+    {
+      "id": "ywy_spinal",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [45, 12],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "ywy_spinal2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [45, -12],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 35,
+      "angle": 0,
+      "locations": [32.5, 28.5],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 35,
+      "angle": -0,
+      "locations": [32.5, -28.5],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 215,
+      "angle": 180,
+      "locations": [4, -0],
+      "renderOrderMod": 7
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 127,
+      "locations": [7, 16.5],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": -127,
+      "locations": [7, -16.5],
+      "renderOrderMod": 4
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": -70,
+      "locations": [44, -17.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 70,
+      "locations": [44, 17.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-36, 2],
+      "length": 50,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 122,
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_CA"
+    },
+    {
+      "location": [-36, -2],
+      "length": 50,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 122,
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_CA"
+    },
+    {
+      "location": [-10.5, -11.5],
+      "length": 42,
+      "width": 12,
+      "angle": -172,
+      "contrailSize": 115,
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_CV"
+    },
+    {
+      "location": [-10.5, 11.5],
+      "length": 42,
+      "width": 12,
+      "angle": 172,
+      "contrailSize": 115,
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_CV"
+    },
+    {
+      "location": [7, -16.5],
+      "length": 5,
+      "width": 7,
+      "angle": -127,
+      "contrailSize": 124,
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_STRIKECRAFT"
+    },
+    {
+      "location": [7, 16.5],
+      "length": 5,
+      "width": 7,
+      "angle": 127,
+      "contrailSize": 124,
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_STRIKECRAFT"
+    },
+    {
+      "location": [44, -17.5],
+      "length": 5,
+      "width": 7,
+      "angle": -70,
+      "contrailSize": 124,
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_STRIKECRAFT"
+    },
+    {
+      "location": [44, 17.5],
+      "length": 5,
+      "width": 7,
+      "angle": 70,
+      "contrailSize": 124,
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_STRIKECRAFT"
+    }
+  ],
+  "bounds": [
+    -66.5, -3.5,
+    -55.5, -4.5,
+    -41.5, -7.5,
+    -16, -9.5,
+    -7.5, -14.5,
+    3.5, -14.5,
+    15, -22,
+    15.5, -35.5,
+    33, -35.5,
+    34.5, -22.5,
+    58.5, -15.5,
+    58.5, -8.5,
+    65.5, -1.5,
+    65.5, 1.5,
+    58.5, 8.5,
+    58.5, 15.5,
+    34.5, 22.5,
+    33, 35.5,
+    15.5, 35.5,
+    15, 22,
+    3.5, 14.5,
+    -7.5, 14.5,
+    -16, 9.5,
+    -41.5, 7.5,
+    -55.5, 4.5,
+    -66.5, 3.5
+  ]
+}

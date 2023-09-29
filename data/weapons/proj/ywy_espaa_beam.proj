@@ -1,0 +1,18 @@
+{
+	"id":"ywy_espaa_beam",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":50.0,
+	"hitGlowRadius":35,
+	"width":3.5,
+	"fadeTime":0.2,
+	#"fringeColor":[255,125,125,255],
+	#"coreColor":[255,200,200,150],
+	"fringeColor":[238,214,254,220],
+	"coreColor":[224,196,246,240],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/YwY_missiles/ywy_pdcs_pellet.png"
+}

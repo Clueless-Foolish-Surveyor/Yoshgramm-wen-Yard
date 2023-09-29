@@ -1,0 +1,41 @@
+{
+  "variantId": "ywy_guoseihen_ffe_Standard",
+  "hullId": "ywy_guoseihen_ffe_base",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 0,
+  "quality": 10,
+  "permaMods": [],
+  "hullMods": [
+    "pointdefenseai",
+    "auxiliarythrusters"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "ywy_spinal": "ywy_ESPAA",
+        "ywy_spinal2": "ywy_ESPAA"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "dualflak",
+        "WS0002": "dualflak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ywy_MSASS"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,78 @@
+{
+  "id": "ywy_ESPAA",
+  "specClass": "projectile",
+  "projectileSpecId": "ywy_espaa_beam",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "turretSprite": "graphics/YwY_weapons/ywy_esPAA_base.png",
+  "turretGlowSprite": "graphics/YwY_weapons/ywy_esPAA_glow.png",
+  "hardpointSprite": "graphics/YwY_weapons/ywy_esPAA_base.png",
+  "hardpointGlowSprite": "graphics/YwY_weapons/ywy_esPAA_glow.png",
+  "glowColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "turretOffsets": [
+    8,
+    1.5,
+    8,
+    -0.5,
+    7,
+    0.5,
+    7,
+    -1.5,
+    6,
+    1.5,
+    6,
+    -0.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    13,
+    1.5,
+    13,
+    -0.5,
+    12,
+    0.5,
+    12,
+    -1.5,
+    11,
+    1.5,
+    11,
+    -0.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 12,
+    "spread": 6,
+    "particleSizeMin": 6,
+    "particleSizeRange": 12,
+    "particleDuration": 0.16,
+    "particleCount": 12,
+    "particleColor": [
+      211,
+      202,
+      253,
+      255
+    ]
+  },
+  "fireSoundTwo": "prox_charge_explosion"
+}

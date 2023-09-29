@@ -11,6 +11,7 @@
   "hardpointSprite": "graphics/YwY_weapons/ywy_MSDCA_pMod_baseHard.png",
   "hardpointGunSprite": "graphics/YwY_weapons/ywy_MSDCA_pMod_hardRecoil.png",
   "visualRecoil": 1.5,
+  "separateRecoilForLinkedBarrels": "TRUE",
   "turretOffsets": [
     20.5,
     5.5,
