@@ -6,6 +6,7 @@
   "size": "SMALL",
   "turretSprite": "graphics/YwY_sc_weps/ywy_fightbomb_gun.png",
   "hardpointSprite": "graphics/YwY_sc_weps/ywy_fightbomb_gun.png",
+  "separateRecoilForLinkedBarrels": "TRUE",
   "renderHints": [
     RENDER_BARREL_BELOW
   ],

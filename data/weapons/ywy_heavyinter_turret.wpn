@@ -6,6 +6,7 @@
   "size": "SMALL",
   "turretSprite": "graphics/YwY_sc_weps/ywy_heavyinter_turret.png",
   "hardpointSprite": "graphics/YwY_sc_weps/ywy_heavyinter_turret.png",
+  "separateRecoilForLinkedBarrels": "TRUE",
   "renderHints": [
     RENDER_BARREL_BELOW
   ],
