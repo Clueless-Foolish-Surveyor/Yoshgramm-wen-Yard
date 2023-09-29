@@ -8,6 +8,7 @@
   "turretGlowSprite": "graphics/YwY_weapons/ywy_esPAA_glow.png",
   "hardpointSprite": "graphics/YwY_weapons/ywy_esPAA_base.png",
   "hardpointGlowSprite": "graphics/YwY_weapons/ywy_esPAA_glow.png",
+  "separateRecoilForLinkedBarrels": "TRUE",
   "glowColor": [
     255,
     255,
