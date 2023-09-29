@@ -1,0 +1,42 @@
+{
+  "variantId": "ywy_guoseihen_ffe_Screening",
+  "hullId": "ywy_guoseihen_ffe_base",
+  "displayName": "Screening",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 9,
+  "quality": 16,
+  "permaMods": [],
+  "hullMods": [
+    "pointdefenseai",
+    "missleracks",
+    "extendedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "ywy_spinal": "ywy_ESPAA",
+        "ywy_spinal2": "ywy_ESPAA"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "ywy_MSASS",
+        "WS0002": "ywy_MSASS"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ywy_CIMP"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

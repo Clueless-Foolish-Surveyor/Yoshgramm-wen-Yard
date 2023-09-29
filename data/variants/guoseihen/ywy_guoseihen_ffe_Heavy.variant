@@ -1,0 +1,41 @@
+{
+  "variantId": "ywy_guoseihen_ffe_Heavy",
+  "hullId": "ywy_guoseihen_ffe_base",
+  "displayName": "Heavy",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 9,
+  "quality": 16,
+  "permaMods": [],
+  "hullMods": [
+    "pointdefenseai",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "ywy_spinal": "ywy_ESPAA",
+        "ywy_spinal2": "ywy_ESPAA"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "ywy_MSDCS",
+        "WS0002": "ywy_MSDCS"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ywy_MSASS"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
