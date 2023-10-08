@@ -4,6 +4,7 @@
   "projectileSpecId": "ywy_espaa_beam",
   "type": "ENERGY",
   "size": "SMALL",
+  "everyFrameEffect": "yoshgramm_wen_yards.scripts.weapons.ywy_msFireSmoke",
   "turretSprite": "graphics/YwY_weapons/ywy_esPAA_base.png",
   "turretGlowSprite": "graphics/YwY_weapons/ywy_esPAA_glow.png",
   "hardpointSprite": "graphics/YwY_weapons/ywy_esPAA_base.png",

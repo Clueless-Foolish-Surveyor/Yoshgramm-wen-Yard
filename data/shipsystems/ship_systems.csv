@@ -2,6 +2,8 @@ name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u 
 #YwY Ship Systems,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Teuful-ji,,,,,,,,,,,,,,,,,,,,,,,,,,,
 XPROPL Injection,ywy_propellBoost,,,,,,,,2,0.15,0.5,0.15,0.05,0.2,,,,,,TRUE,TRUE,TRUE,,,,,graphics/icons/hullsys/maneuvering_jets.png
+#Guoseihen,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ADEMS Canisters,ywy_ADEMS_defense,,,,,,,,3,0.15,,,,2,,,,,,,,,,,,,graphics/icons/hullsys/active_flare_launcher.png
 #Lohen-li,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Flux Shunting Thrusters,ywy_fluxShunt_jets,,,,,,,,,,1,7,1,5,,,,,,,,,,,,,graphics/icons/hullsys/maneuvering_jets.png
 #Wuhauser,,,,,,,,,,,,,,,,,,,,,,,,,,,

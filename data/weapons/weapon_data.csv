@@ -45,6 +45,9 @@ Thunderstorm MSDCA,ywy_MSDCA,1,0.74,2255,600,,15,,2,32,15,,,,HIGH_EXPLOSIVE,9,,0
 Thunderstorm MSDCA (Mod.),ywy_MSDCA_Pmod,0,0.35,1600,500,,15,,2,28,15,,,,HIGH_EXPLOSIVE,12,,0,0.08,,,0,36,1,30,,860,,,15,,,,"he13, SR, rare_bp, merc, ind",,Yoshgramm-wen Yards,,Anti Armor/Suppression,,,,,,,,,,2023122a
 Rain Cloud BMSAC,ywy_BMSAC,2,0.64,2000,1100,,100,,15,44,20,,,,KINETIC,85,,0,1.35,,,13,13,13,3,,933,,,10,,,,"kinetic12, LR, ywy_heavyWep_kit, merc, ind",,Yoshgramm-wen Yards,,Anti Shield/Suppression,,,,,,,,,,2023123
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#System Weapons,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ADEMS Missiles,ywy_ADEMS_launcher,,,,350,,30,,50,,,,0,,HIGH_EXPLOSIVE,0,0,0,0.1,8,0.05,80,80,0,0,,335,75,10,65,,,SYSTEM,,,,,,,,,,,,,,,2023140
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Strikecraft Weapons,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Hispano ESPV,ywy_fightbomb_gun,5,,500,600,,25,,5,50,6,,,,ENERGY,9,,0,0.15,8,0.05,0,5,1,15,,700,,,15,,,"SYSTEM, PD","pd10, energy5, no_sell, no_drop, no_drop_salvage",,Yoshgramm-wen Yards,,General,,,,,,,,,,2023109
 Whalekiller HSGO,ywy_fightbomb_msl,5,,2500,1000,,250,,20,20,10,4,,,HIGH_EXPLOSIVE,0,,0,0.1,1,0,0,0,0,0,,500,50,4.66,100,,,"SYSTEM, DO_NOT_AIM, GUIDED_POOR","missile1, no_sell, no_drop, no_drop_salvage",,Yoshgramm-wen Yards,,Anti Armor,Fast,Medium,,,,,,,TRUE,2023110

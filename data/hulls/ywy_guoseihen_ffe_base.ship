@@ -25,7 +25,7 @@
       "size": "SMALL",
       "type": "BUILT_IN",
       "mount": "HARDPOINT",
-      "arc": 5,
+      "arc": 7,
       "angle": 0,
       "locations": [45, 12],
       "renderOrderMod": 5
@@ -35,7 +35,7 @@
       "size": "SMALL",
       "type": "BUILT_IN",
       "mount": "HARDPOINT",
-      "arc": 5,
+      "arc": 7,
       "angle": -0,
       "locations": [45, -12],
       "renderOrderMod": 5
@@ -107,20 +107,29 @@
       "arc": 7,
       "angle": 70,
       "locations": [44, 17.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": 135,
+      "locations": [-1.5, 10.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 45,
+      "angle": -135,
+      "locations": [-1.5, -10.5]
     }
   ],
   "engineSlots": [
     {
-      "location": [-36, 2],
-      "length": 50,
-      "width": 8,
-      "angle": -180,
-      "contrailSize": 112,
-      "style": "CUSTOM",
-      "styleId": "YWY_MID_CA"
-    },
-    {
-      "location": [-36, -2],
+      "location": [-35.5, 2],
       "length": 50,
       "width": 8,
       "angle": 180,
@@ -129,56 +138,65 @@
       "styleId": "YWY_MID_CA"
     },
     {
-      "location": [-10.5, -11.5],
-      "length": 42,
-      "width": 12,
-      "angle": -172,
-      "contrailSize": 115,
+      "location": [-35.5, -2],
+      "length": 50,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 112,
       "style": "CUSTOM",
-      "styleId": "YWY_MID_DD"
+      "styleId": "YWY_MID_CA"
     },
     {
-      "location": [-10.5, 11.5],
-      "length": 42,
+      "location": [-9.5, -11.5],
+      "length": 12,
       "width": 12,
-      "angle": 172,
+      "angle": -163,
       "contrailSize": 115,
       "style": "CUSTOM",
-      "styleId": "YWY_MID_DD"
+      "styleId": "YWY_MID_CA"
+    },
+    {
+      "location": [-9.5, 11.5],
+      "length": 12,
+      "width": 12,
+      "angle": 163,
+      "contrailSize": 115,
+      "style": "CUSTOM",
+      "styleId": "YWY_MID_CA"
     },
     {
       "location": [7, -16.5],
-      "length": 5,
-      "width": 6,
+      "length": 0,
+      "width": 0,
       "angle": -127,
-      "contrailSize": 136,
+      "contrailSize": 150,
       "style": "CUSTOM",
       "styleId": "YWY_MID_STRIKECRAFT"
     },
     {
       "location": [7, 16.5],
-      "length": 5,
-      "width": 6,
+      "length": 0,
+      "width": 0,
       "angle": 127,
-      "contrailSize": 136,
+      "contrailSize": 150,
       "style": "CUSTOM",
       "styleId": "YWY_MID_STRIKECRAFT"
     },
     {
       "location": [44, -17.5],
-      "length": 5,
-      "width": 6,
+      "length": 0,
+      "width": 0,
       "angle": -70,
-      "contrailSize": 136,
+      "contrailSize": 150,
       "style": "CUSTOM",
       "styleId": "YWY_MID_STRIKECRAFT"
     },
     {
       "location": [44, 17.5],
-      "length": 5,
-      "width": 6,
+      "length": 0,
+      "width": 0,
       "angle": 70,
-      "contrailSize": 136,
+      "contrailSize": 150,
       "style": "CUSTOM",
       "styleId": "YWY_MID_STRIKECRAFT"
     }

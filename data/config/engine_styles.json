@@ -40,8 +40,8 @@
     "contrailCampaignColor": [211,194,151,75],
 
     "type": "GLOW", # GLOW or SMOKE; additive or regular blend mode
-    "glowSprite": "graphics/fx/engineglow32b.png",
-    "glowOutline": "graphics/fx/engineflame32b.png",
+    "glowSprite": "graphics/YwY_VFX/ywy_engineflames/ywy_engineflame32c.png",
+    "glowOutline": "graphics/YwY_VFX/ywy_engineflames/ywy_engineflame32c.png",
 
     #"glowAlternateColor": [134,221,253,150], # MIDLINE DEFAULT
 
@@ -68,8 +68,8 @@
     "contrailCampaignColor": [141,97,59,125],
 
     "type": "GLOW",
-    "glowSprite": "graphics/fx/engineglow32b.png",
-    "glowOutline": "graphics/fx/engineflame32b.png",
+    "glowSprite": "graphics/YwY_VFX/ywy_engineflames/ywy_engineflame32c.png",
+    "glowOutline": "graphics/YwY_VFX/ywy_engineflames/ywy_engineflame32c.png",
     "glowAlternateColor": [255,160,77,150],
     "engineGlowGlowMult": 1.6f,
     "glowSizeMult": 0.9f,
@@ -93,8 +93,8 @@
     "contrailCampaignColor": [192,109,93,150],
 
     "type": "GLOW",
-    "glowSprite": "graphics/fx/engineglow32b.png",
-    "glowOutline": "graphics/fx/engineflame32b.png",
+    "glowSprite": "graphics/YwY_VFX/ywy_engineflames/ywy_engineflame32b.png",
+    "glowOutline": "graphics/YwY_VFX/ywy_engineflames/ywy_engineflame32b.png",
     "glowAlternateColor": [255,128,103,150],
     "engineGlowGlowMult": 1.7f,
     "glowSizeMult": 1.4f,

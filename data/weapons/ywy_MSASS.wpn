@@ -4,6 +4,7 @@
   "projectileSpecId": "ywy_MSASS_shot",
   "type": "BALLISTIC",
   "size": "SMALL",
+  "everyFrameEffect": "yoshgramm_wen_yards.scripts.weapons.ywy_msFireSmoke",
   "displayArcRadius": 300,
   "turretSprite": "graphics/YwY_weapons/ywy_msSASS_base_turret.png",
   "turretGunSprite": "graphics/YwY_weapons/ywy_msSASS_barrel_turret.png",
@@ -44,7 +45,7 @@
       246,
       222,
       145,
-      150
+      75
     ]
   },
   "fireSoundTwo": "ywy_MDSPDS_fire"

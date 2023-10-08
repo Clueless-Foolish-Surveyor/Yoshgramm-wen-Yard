@@ -1,0 +1,8 @@
+{
+	"id":"ywy_ADEMS_defense",
+	"type":"WEAPON",
+	"aiType":"CANISTER_FLAK",
+	
+	"weaponDataId":"ywy_ADEMS_launcher",
+	"outOfUsesSound":"gun_out_of_ammo",
+}
