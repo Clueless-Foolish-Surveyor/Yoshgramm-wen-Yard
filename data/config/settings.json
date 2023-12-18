@@ -24,10 +24,19 @@
 			"ywy_acews_vfx_frame4": "graphics/YwY_VFX/ywy_wuhauser/ywy_wuhauser_ews_04.png",
 			"ywy_acews_vfx_frame5": "graphics/YwY_VFX/ywy_wuhauser/ywy_wuhauser_ews_05.png",
 			"ywy_acews_vfx_frame6": "graphics/YwY_VFX/ywy_wuhauser/ywy_wuhauser_ews_06.png",
+			"ywy_acews_vfx_frame7": "graphics/YwY_VFX/ywy_wuhauser/ywy_wuhauser_ews_07.png",
+			"ywy_acews_vfx_frame8": "graphics/YwY_VFX/ywy_wuhauser/ywy_wuhauser_ews_08.png",
+			"ywy_acews_vfx_frame9": "graphics/YwY_VFX/ywy_wuhauser/ywy_wuhauser_ews_09.png",
+			"ywy_acews_vfx_frame10": "graphics/YwY_VFX/ywy_wuhauser/ywy_wuhauser_ews_10.png",
+			"ywy_acews_vfx_frame11": "graphics/YwY_VFX/ywy_wuhauser/ywy_wuhauser_ews_11.png",
 		},
 		
 		"ywy_acews_vfx_emptyframe": {
 			"ywy_acews_vfx_blankframe": "graphics/YwY_VFX/ywy_wuhauser/ywy_wuhauser_ews_blank.png",
+		},
+
+		"ywy_basic_ringGraphic": {
+			"ywy_wuhauserVFX_ring": "graphics/YwY_VFX/ywy_wuhauserVFX_ring.png",
 		},
 
 		"ywy_droneCore_vfx_frames" : {
