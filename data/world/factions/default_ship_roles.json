@@ -6,14 +6,14 @@
   # For frigates and smaller
   "combatSmall":{
 
-    "ywy_teufuji_ffgd_testbed":5,
+    "ywy_teufuji_ffgd_testbed":7,
 
   },
 
   # For destroyers and larger frigates
   "combatMedium": {
 
-    "ywy_teufuji_ffgd_testbed":3,
+    "ywy_teufuji_ffgd_testbed":5,
 
     "ywy_lohenli_dd_Export":2,
     "ywy_lohenli_dd_BombardmentEx":1,
