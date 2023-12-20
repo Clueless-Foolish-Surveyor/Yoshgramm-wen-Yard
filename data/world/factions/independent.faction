@@ -2,6 +2,10 @@
 	# variantOverrides restricts hulls to listed variants and adjusts their probability
 	"variantOverrides":{
 
+		"ywy_guoseihen_ffe_Standard": 3,
+		"ywy_guoseihen_ffe_Heavy": 2,
+		"ywy_guoseihen_ffe_Screening": 2,
+
 		"ywy_lohenli_dd_Export":1,
 		"ywy_lohenli_dd_BombardmentEx":1,
 		"ywy_lohenli_dd_Militia":3,
@@ -42,33 +46,33 @@
 
 	"weaponSellFrequency":{
 
-		"ywy_GKKR_single":8,
-		"ywy_GKKR_pod":7,
+		"ywy_GKKR_single":4,
+		"ywy_GKKR_pod":4,
 
 		"ywy_HEPBP":4,
-		"ywy_MSPDS":8,
-		"ywy_XPDCG":6,
-		"ywy_CIMP":8,
-		"ywy_MSASS":7,
+		"ywy_MSPDS":5,
+		"ywy_XPDCG":5,
+		"ywy_CIMP":5,
+		"ywy_MSASS":5,
 
 		"ywy_EMPAC":4,
-		"ywy_SRSMB":6,
-		"ywy_SRASMB":6,
-		"ywy_MSDCS":8,
-		"ywy_LRBMB":7,
+		"ywy_SRSMB":4,
+		"ywy_SRASMB":4,
+		"ywy_MSDCS":4,
+		"ywy_LRBMB":4,
 
-		"ywy_MSDCA":5,
-		"ywy_MSDCA_Pmod":5,
-		"ywy_BMSAC":4,
+		"ywy_MSDCA":3,
+		"ywy_MSDCA_Pmod":2,
+		"ywy_BMSAC":3,
 
 	},
 	"fighterSellFrequency":{
 
-		"ywy_fightbomb_wing":7,
-		"ywy_fightbomb_SUPERwing":4,
+		"ywy_fightbomb_wing":5,
+		"ywy_fightbomb_SUPERwing":3,
 
-		"ywy_heavyinter_wing":7,
-		"ywy_heavyinter_SUPERwing":4,
+		"ywy_heavyinter_wing":5,
+		"ywy_heavyinter_SUPERwing":3,
 
 	},
 	

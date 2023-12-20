@@ -1,5 +1,9 @@
 {
 	"variantOverrides":{
+		
+		"ywy_guoseihen_ffe_Standard": 3,
+		"ywy_guoseihen_ffe_Heavy": 2,
+		"ywy_guoseihen_ffe_Screening": 5,
 
 		"ywy_lohenli_dd_Standard":2,
 		"ywy_lohenli_dd_Bombard":2,
@@ -27,6 +31,8 @@
 
 	"knownShips":{
 		"hulls":[
+			"ywy_guoseihen_ffe_base",
+			
 			"ywy_lohenli_dd_base",
 			"ywy_wuhauser_cve_base",
 
@@ -73,21 +79,21 @@
 	},
 
 	"weaponSellFrequency":{
-		"ywy_GKKR_single":7,
-		"ywy_GKKR_pod":5,
+		"ywy_GKKR_single":5,
+		"ywy_GKKR_pod":3,
 
-		"ywy_MSPDS":7,
+		"ywy_MSPDS":5,
 		"ywy_XPDCG":5,
-		"ywy_CIMP":7,
-		"ywy_MSASS":6,
+		"ywy_CIMP":5,
+		"ywy_MSASS":5,
 
-		"ywy_SRSMB":6,
-		"ywy_SRASMB":6,
-		"ywy_MSDCS":6,
+		"ywy_SRSMB":5,
+		"ywy_SRASMB":5,
+		"ywy_MSDCS":5,
 		"ywy_LRBMB":5,
 
-		"ywy_MSDCA":6,
-		"ywy_BMSAC":5,
+		"ywy_MSDCA":3,
+		"ywy_BMSAC":3,
 	},
 	"fighterSellFrequency":{
 		"ywy_fightbomb_wing":6,
@@ -96,8 +102,8 @@
 		"ywy_heavyinter_wing":6,
 		"ywy_heavyinter_SUPERwing":3,
 
-		"ywy_dronebomber_wing":3,
-		"ywy_dronebomber_SUPERwing":0.5,
+		"ywy_dronebomber_wing":4,
+		"ywy_dronebomber_SUPERwing":1.5,
 
 		"ywy_superiorASF_wing":0.5,
 	},

@@ -1,6 +1,10 @@
 {
 	# variantOverrides restricts hulls to listed variants and adjusts their probability
 	"variantOverrides":{
+		"ywy_guoseihen_ffe_Standard": 2.5,
+		"ywy_guoseihen_ffe_Heavy": 2.5,
+		"ywy_guoseihen_ffe_Screening": 2.5,
+		
 		"ywy_lohenli_dd_Militia":2.5,
 		"ywy_lohenli_dd_MilitiaAlt":2.5,
 		"ywy_lohenli_dd_MilitiaAlt2":2.5,
@@ -14,6 +18,8 @@
 
 	"knownShips":{
 		"hulls":[
+			"ywy_guoseihen_ffe_base",
+			
 			"ywy_lohenli_dd_base",
 			"ywy_wuhauser_cve_base",
 		],
@@ -52,14 +58,14 @@
 		"ywy_GKKR_pod":3,
 
 		"ywy_MSPDS":6,
-		"ywy_XPDCG":4,
+		"ywy_XPDCG":5,
 		"ywy_CIMP":6,
 		"ywy_MSASS":5,
 
 		"ywy_SRSMB":5,
 		"ywy_SRASMB":5,
 		"ywy_MSDCS":5,
-		"ywy_LRBMB":4,
+		"ywy_LRBMB":5,
 
 		"ywy_MSDCA":3,
 		"ywy_MSDCA_Pmod":5,

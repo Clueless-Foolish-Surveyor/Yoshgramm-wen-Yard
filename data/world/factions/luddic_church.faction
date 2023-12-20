@@ -1,6 +1,10 @@
 {
 	# variantOverrides restricts hulls to listed variants and adjusts their probability
 	"variantOverrides":{
+		
+		"ywy_guoseihen_ffe_Standard": 3,
+		"ywy_guoseihen_ffe_Heavy": 1,
+		"ywy_guoseihen_ffe_Screening": 2,
 
 		"ywy_lohenli_dd_Export":3,
 		"ywy_lohenli_dd_BombardmentEx":3,
@@ -36,6 +40,8 @@
 
 	"knownShips":{
 		"hulls":[
+			"ywy_guoseihen_ffe_base",
+			
 			"ywy_lohenli_dd_base",
 			"ywy_wuhauser_cve_base",
 
@@ -78,16 +84,16 @@
 		"ywy_GKKR_pod":3,
 
 		"ywy_MSPDS":6,
-		"ywy_XPDCG":4,
-		"ywy_CIMP":6,
+		"ywy_XPDCG":5,
+		"ywy_CIMP":5,
 		"ywy_MSASS":5,
 
 		"ywy_SRSMB":5,
 		"ywy_SRASMB":5,
 		"ywy_MSDCS":5,
-		"ywy_LRBMB":4,
+		"ywy_LRBMB":5,
 
-		"ywy_MSDCA":5,
+		"ywy_MSDCA":4,
 		"ywy_BMSAC":4,
 	},
 	"fighterSellFrequency":{

@@ -1,53 +1,65 @@
 {
   # should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
   # for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
-  #"combatSmallForSmallFleet":{},
+  "combatSmallForSmallFleet":{
+	   
+    "ywy_teufuji_ffgd_testbed": 2,
+	
+	"ywy_guoseihen_ffe_Standard": 5,
+	"ywy_guoseihen_ffe_Heavy": 4,
+	"ywy_guoseihen_ffe_Screening": 5,
+	  
+  },
 
   # For frigates and smaller
   "combatSmall":{
 
-    "ywy_teufuji_ffgd_testbed":7,
+    "ywy_teufuji_ffgd_testbed": 1,
+	
+	"ywy_guoseihen_ffe_Standard": 4,
+	"ywy_guoseihen_ffe_Heavy": 3,
+	"ywy_guoseihen_ffe_Screening": 4,
 
   },
 
   # For destroyers and larger frigates
   "combatMedium": {
 
-    "ywy_teufuji_ffgd_testbed":5,
+    "ywy_teufuji_ffgd_testbed": 1,
 
-    "ywy_lohenli_dd_Export":2,
-    "ywy_lohenli_dd_BombardmentEx":1,
+    "ywy_lohenli_dd_Export": 4,
+    "ywy_lohenli_dd_BombardmentEx": 4,
 
-    "ywy_lohenli_dd_Militia":2,
-    "ywy_lohenli_dd_MilitiaAlt":1,
-    "ywy_lohenli_dd_MilitiaAlt2":1,
-    "ywy_lohenli_dd_MilitiaAlt3":1,
+    "ywy_lohenli_dd_Militia": 5,
+    "ywy_lohenli_dd_MilitiaAlt": 5,
+    "ywy_lohenli_dd_MilitiaAlt2": 5,
+    "ywy_lohenli_dd_MilitiaAlt3": 5,
 
-    "ywy_lohenli_dd_Standard":1,
-    "ywy_lohenli_dd_Bombard":1,
+    "ywy_lohenli_dd_Standard": 3,
+    "ywy_lohenli_dd_Bombard": 3,
 
   },
 
   # For cruisers and larger destroyers
   "combatLarge": {
 
-    "ywy_luohoff_ca_Escort":2,
-    "ywy_luohoff_ca_Export":3,
-    "ywy_luohoff_ca_Line":1,
-    "ywy_luohoff_ca_Militia":2,
-    "ywy_luohoff_ca_MilitiaAlt":2,
+    "ywy_luohoff_ca_Escort": 3,
+    "ywy_luohoff_ca_Export": 4,
+    "ywy_luohoff_ca_Line": 3,
+    "ywy_luohoff_ca_Militia": 5,
+    "ywy_luohoff_ca_MilitiaAlt": 5,
 
-    "ywy_luohoff_ca_skm1_Militia":5,
-    "ywy_luohoff_ca_skm1_Export":5,
+    "ywy_luohoff_ca_skm1_Militia": 5,
+    "ywy_luohoff_ca_skm1_Export": 3,
 
-    "ywy_luohoff_ca_skm2_Militia":5,
-    "ywy_luohoff_ca_skm2_Export":5,
+    "ywy_luohoff_ca_skm2_Militia": 5,
+    "ywy_luohoff_ca_skm2_Export": 3,
 
-    "ywy_luohoff_ca_skm3_Militia":5,
-    "ywy_luohoff_ca_skm3_Export":5,
+    "ywy_luohoff_ca_skm3_Militia": 5,
+    "ywy_luohoff_ca_skm3_Export": 3,
 
-    "ywy_luohoff_ca_skm4_Militia":5,
-    "ywy_luohoff_ca_skm4_Export":5,
+    "ywy_luohoff_ca_skm4_Militia": 5,
+    "ywy_luohoff_ca_skm4_Export": 3,
 
   },
 
@@ -55,32 +67,32 @@
   # For destroyer-size and smaller carriers
   "carrierSmall": {
 
-    "ywy_wuhauser_cve_ASC":1,
-    "ywy_wuhauser_cve_Export":2,
-    "ywy_wuhauser_cve_Standard":1,
+    "ywy_wuhauser_cve_ASC": 2,
+    "ywy_wuhauser_cve_Export": 4,
+    "ywy_wuhauser_cve_Standard": 3,
 
-    "ywy_wuhauser_cve_Militia":2,
-    "ywy_wuhauser_cve_MilitiaAlt":1,
-    "ywy_wuhauser_cve_MilitiaAlt2":1,
-    "ywy_wuhauser_cve_MilitiaAlt3":1,
+    "ywy_wuhauser_cve_Militia": 5,
+    "ywy_wuhauser_cve_MilitiaAlt": 5,
+    "ywy_wuhauser_cve_MilitiaAlt2": 5,
+    "ywy_wuhauser_cve_MilitiaAlt3": 5,
 
-    "ywy_wuhauser_cve_Missile":1,
+    "ywy_wuhauser_cve_Missile": 3,
 
   },
 
   # For cruiser-size and larger destroyer-size carriers
   "carrierMedium": {
 
-    "ywy_lichterbo_cv_Command":1,
+    "ywy_lichterbo_cv_Command": 2,
 
-    "ywy_lichterbo_cv_Export":2,
-    "ywy_lichterbo_cv_SupportEx":2,
+    "ywy_lichterbo_cv_Export": 4,
+    "ywy_lichterbo_cv_SupportEx": 4,
 
-    "ywy_lichterbo_cv_Militia":2,
-    "ywy_lichterbo_cv_MilitiaAlt":1,
+    "ywy_lichterbo_cv_Militia": 5,
+    "ywy_lichterbo_cv_MilitiaAlt": 5,
 
-    "ywy_lichterbo_cv_Standard":1,
-    "ywy_lichterbo_cv_Support":1,
+    "ywy_lichterbo_cv_Standard": 3,
+    "ywy_lichterbo_cv_Support": 3,
 
   },
 }
