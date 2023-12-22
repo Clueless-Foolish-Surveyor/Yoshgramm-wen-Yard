@@ -1,8 +1,8 @@
 name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
-#YwY Hullmods,,,,,,,,,,,,,,,,,,
+#YwY Hullmods,,,,,,,,,,,,,,,,,,,
 XPROPL,ywy_propellant,,,Yoshgramm-wen Yards,,,,,TRUE,,0,0,0,0,yoshgramm_wen_yards.hullmods.ywy_propellant_script,"The Teufu-ji's long orange tanks contain eXperimental PROPellant Liquid that powers the vessel's RCS array. Guarantees %s for the ship in addition to a flat %s turn rate increase.
 
-If the skill %s is listed and is %s on a present captain on the ship, then a flat %s increase to max speed and a flat %s boost to max turn rate (overrides the previous increase) is given. However, if the ship's %s suffer any sort of damage, then the bonuses are gradually reduced until all primary engines have been disabled at least once.",Speed and manoeuvrability boost for the Teufu-ji that lasts as long as the engines,,graphics/hullmods/assault_package.png
+If the skill %s is listed and is %s on a present captain on the ship, then a flat %s increase to max speed and a flat %s boost to max turn rate (overrides the previous increase) is given. However, if the ship's %s suffer any sort of damage, then the bonuses are gradually reduced until all primary engines have been disabled at least once.",Speed and manoeuvrability boost for the Teufu-ji that lasts as long as the engines,,graphics/YwY_hullmods/ywy_XPROPL.png
 MSLS RPM Adjustment,ywy_loheli_mslsSwap,,,,,,,,TRUE,TRUE,0,0,0,0,yoshgramm_wen_yards.hullmods.ywy_lohenli_mslsSwap,The Lohen-li can adjust the RPM of their spinal-mounted machine gun.,Facilities weapon adjustment for the Lohen-li.,,graphics/hullmods/generic_mod.png
 RPM: High,ywy_MSLS_RPMHigh,,,Yoshgramm-wen Yards,no_build_in,,,,TRUE,,0,0,0,0,yoshgramm_wen_yards.hullmods.weaponSwap.ywy_MSLS_RPMHigh,"Owing to the original Metal Storm concept, the MSLS can adjust its fire rate accordingly if needed be. Rarely do captains have the weapon upped to the max, however.
 
@@ -19,16 +19,16 @@ RPM: Low,ywy_MSLS_RPMLow,,,Yoshgramm-wen Yards,no_build_in,,,,TRUE,,0,0,0,0,yosh
 %s: 1,500 RPM.
 
 %s",Adjusts the MSLS to fire a smaller but sustainable burst.,,graphics/YwY_hullmods/msls/ywy_MSLS_RPMlow.png
-,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
 ACEWS,ywy_compositeEWS,,,Yoshgramm-wen Yards,,,,,TRUE,,0,0,0,0,yoshgramm_wen_yards.hullmods.ywy_compositeEWS,"Integrated into the Wuhauser-class escort carrer is the Advanced Composite Electronic Warfare Suite that combines the advantages of ECM and ECCM packages; providing a %s ECM rating, %s chance of missiles being unaffected by countermeasures, and minor %s improvement to speed and %s turn rate improvement for said missiles. Additionally, the ACEWS includes a scaled-back model of the Lichter-bo-class carrier's active EWS equipment, geared to affect a %s radius around the ship.
 
 However, the ACEWS's composite nature means that it is comparably limited to its standalone source equipment.","Combines buffs and abilities from ECM package, ECCM package, and the EWS weapon into one. Comparably limited, however.",,graphics/YwY_hullmods/ywy_ACEWS.png
 Exoatmospheric Operations,ywy_lichterbo_atmoOps,,,Yoshgramm-wen Yards,,,,,TRUE,,0,0,0,0,yoshgramm_wen_yards.hullmods.ywy_lichterbo_atmoOps,"Designed to operate well within an atmosphere, the Lichter-bo-class can provide a ground support bonus of %s.
 
 Unlike typical ground support packages, the bonuses are taken from the OP costs of equipped wings - with an added flat bonus of %s for each Yoshgramm-wen designed wing.",Derivative of the Ground Support Package but uses equipped wings' overall OP cost for the bonus,,graphics/YwY_hullmods/ywy_ExoatmoOps.png
-,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
 AFCS,ywy_luohoff_AFCS,,,Yoshgramm-wen Yards,,,,,TRUE,,0,0,0,0,yoshgramm_wen_yards.hullmods.ywy_luohoff_AFCS,"A signature feature of the Luohoff-class heavy cruiser is its Adaptive Fire Control System, changing its parameters and behavior accordingly to the equipped large ballistic weapon. From the data collected, the FCS adjusts the range and accuracy of equipped secondary weapons mounted in the medium slots.",Derivative of the Ballistic Rangefinder. Finds the range and damage type of the equipped large ballistic and applies certain bonuses to the other slots.,,graphics/YwY_hullmods/ywy_AFCS.png
-,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
 War Emergency Power,ywy_WEP,,,,,,,,TRUE,TRUE,0,0,0,0,yoshgramm_wen_yards.hullmods.ywy_WEP,For the Vonlubu fighter only - mimics the maneuvering jets buff when evoked by the use of flares.,,,
 AWACS-to-Ship Weapons Ranging and PD Network,ywy_seheryuanAWACS,,,,,,,,TRUE,,0,0,0,0,yoshgramm_wen_yards.hullmods.ywy_seheryuanAWACS,For the Seheryuan only - gives the craft AWACS/EWAR abilities on the field. Buffs ships.,,,
 AWACS-to-Strikecraft Early Warning and Target Analysis,ywy_seheryuanAWACS2,,,,,,,,TRUE,,0,0,0,0,yoshgramm_wen_yards.hullmods.ywy_seheryuanAWACS2,For the Seheryuan only - gives the craft AWACS/EWAR abilities on the field. Buffs fighters.,,,
@@ -40,7 +40,7 @@ Variable Wing AI,ywy_VWAI,,,,,,,,TRUE,TRUE,0,0,0,0,yoshgramm_wen_yards.hullmods.
 ,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,
-#YwY Utility Hullmods,,,,,,,,,,,,,,,,,,
+#YwY Utility Hullmods,,,,,,,,,,,,,,,,,,,
 No Weapon Damage,No_wep_dam,,,,,,,,TRUE,TRUE,0,0,0,0,yoshgramm_wen_yards.hullmods.NoWepDam,Will prevent non-hidden weapons from being damaged. Useful for strikecraft.,,,
 ,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,

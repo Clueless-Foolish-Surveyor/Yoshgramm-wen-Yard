@@ -24,7 +24,8 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		api.addBriefingItem("Preview the capabilities of YWY's catalogue.");
 		
 		// Set up the player's fleet.
-		api.addToFleet(FleetSide.PLAYER, "ywy_lohenli_dd_Standard", FleetMemberType.SHIP, "Lohen-li", true);
+		api.addToFleet(FleetSide.PLAYER, "ywy_guoseihen_ffe_Standard", FleetMemberType.SHIP, "Guoseihen", true);
+		api.addToFleet(FleetSide.PLAYER, "ywy_lohenli_dd_Standard", FleetMemberType.SHIP, "Lohen-li", false);
 		api.addToFleet(FleetSide.PLAYER, "ywy_wuhauser_cve_ASC", FleetMemberType.SHIP, "Wuhauser", false);
 		api.addToFleet(FleetSide.PLAYER, "ywy_lichterbo_cv_Standard", FleetMemberType.SHIP, "Lichter-bo", false);
 		api.addToFleet(FleetSide.PLAYER, "ywy_luohoff_ca_Line", FleetMemberType.SHIP, "Luohoff", false);
