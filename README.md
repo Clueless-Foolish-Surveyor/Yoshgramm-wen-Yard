@@ -1,4 +1,6 @@
-![Yoshgramm_wen_Yards_PageBanner](https://github.com/Clueless-Foolish-Surveyor/Yoshgramm-wen-Yard/assets/79179692/91b1a1fb-ac80-4d43-91b5-b52f2d31a6f2)
+<p align="center">
+<img src="https://github.com/Clueless-Foolish-Surveyor/Yoshgramm-wen-Yard/assets/79179692/91b1a1fb-ac80-4d43-91b5-b52f2d31a6f2" alt="Yoshgramm_wen_Yards_PageBanner">
+</p>
 
 ***A lightweight StarSector ship pack that pays homage to sci-fi Japanese media.***
 
@@ -16,4 +18,7 @@ New weapons feature:
   - A large ballistic shotgun.
   - And a handful of others.
 
-![YWY_Hull_Display_ver2](https://github.com/Clueless-Foolish-Surveyor/Yoshgramm-wen-Yard/assets/79179692/99a3ae12-88bb-4d51-8ded-2e06e55ceb76)
+<p align="center">
+<img src="https://github.com/Clueless-Foolish-Surveyor/Yoshgramm-wen-Yard/assets/79179692/99a3ae12-88bb-4d51-8ded-2e06e55ceb76" alt="YWY_Hull_Display_ver2">
+<img src="https://github.com/Clueless-Foolish-Surveyor/Yoshgramm-wen-Yard/assets/79179692/0564e9d5-a703-477d-b9e0-b166c854b176 alt="YWY_Hull_Display_FrigatesUpdate">
+</p>
