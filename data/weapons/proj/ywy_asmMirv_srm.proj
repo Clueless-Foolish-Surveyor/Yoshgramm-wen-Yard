@@ -14,7 +14,7 @@
 	"noEngineGlowTime": 0.07,
 	"maxFlightTime":3.7,
 	"engineSpec": { "turnAcc": 700,
-					"turnRate": 1,
+					"turnRate": 100,
 					"acc": 1250,
 					"dec": 1250,
 					"maxSpeed": 400,

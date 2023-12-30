@@ -13,7 +13,7 @@
 	"armingTime": 0.12,
 	"noEngineGlowTime": 0.12,
 	"engineSpec": { "turnAcc": 900,
-					"turnRate": 10,
+					"turnRate": 100,
 					"acc": 1600,
 					"dec": 900,
 					},

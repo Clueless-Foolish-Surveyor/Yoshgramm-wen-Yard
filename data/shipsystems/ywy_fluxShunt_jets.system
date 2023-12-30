@@ -3,11 +3,10 @@
 	#"type":"ENGINE_MOD",
 	#"aiType":"BURN_DRIVE",
 	"type":"STAT_MOD",
-    "aiType":"DAMPER_FIELD",
+    #"aiType":"DAMPER_FIELD",
 
-    #"type":"ENGINE_MOD",
-    #"aiType":"CUSTOM",
-    #"aiScript":"yoshgramm_wen_yards.shipsystems.ai.ywy_fluxShunt_sysAI",
+    "aiType":"CUSTOM",
+    "aiScript":"yoshgramm_wen_yards.shipsystems.ai.ywy_fluxShunt_sysAI",
 
 	"statsScript":"yoshgramm_wen_yards.shipsystems.ywy_fluxShunt_jets_script",
 	
