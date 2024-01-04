@@ -64,11 +64,11 @@ Popshot BMFGP,ywy_heavyinter_BMFGP_r,5,,730,750,,30,,15,32,6,24,,,KINETIC,0,,0,0
 SEAD Flare Launcher,ywy_SEADflare_launcher,,,,450,,20,300,15,,,,0,,ENERGY,0,0,0,0.1,2,0.25,30,30,0,0,,330,135,10,850,,,"SYSTEM, PD, PD_ALSO, ANTI_FTR, DO_NOT_AIM",,,,,,,,,,,,,,,2023127
 SEAD Flare Launcher (Nuke),ywy_SEADflare_launcher2,,,,450,,20,150,15,,,,0,,ENERGY,0,0,0,0.1,2,0.25,30,30,0,0,,330,135,10,850,,,"SYSTEM, PD, PD_ALSO, ANTI_FTR, DO_NOT_AIM",,,,,,,,,,,,,,,2023127b
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Internal Bomb Bay,ywy_dronebomber_bay,5,,400,350,,750,,150,15,6,2,,,HIGH_EXPLOSIVE,0,,0,0.8,2,0.1,0,0,0,0,,200,40,3.33,1400,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, BOMB","he0, no_sell, no_drop, no_drop_salvage",,,,Strike,,,,,,,,,TRUE,2023131
+Internal Bomb Bay,ywy_dronebomber_bay,5,,400,1500,,750,,150,15,6,2,,,HIGH_EXPLOSIVE,0,,0,0.8,2,0.1,0,0,0,0,,300,100,10,300,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, BOMB","he0, no_sell, no_drop, no_drop_salvage",,,,Strike,,,,,,,,,TRUE,2023131
 Sunshine NFGO,ywy_dronebomber_nuke,5,,3500,1200,,1500,1500,60,20,16,1,,,ENERGY,0,,0,1,,,0,0,0,0,,600,250,9.5,175,,,"SYSTEM, STRIKE, USE_VS_FRIGATES","energy0, no_sell, no_drop, no_drop_salvage",,,,Strike,,,,,,,,,TRUE,2023132
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Saltshaker MSV Pod,ywy_dronefighter_gun,5,,580,500,,15,,2,40,3,300,,,HIGH_EXPLOSIVE,0,,0,0.02,6,0.08,0,14,2,6,,860,,,15,,,"SYSTEM, PD, PD_ALSO","pd8, he5, no_sell, no_drop, no_drop_salvage",,Yoshgramm-wen Yards,,Point Defense,,,,,,,,,TRUE,2023134
-Hailstorm MSFC,ywy_dronefighter_flakgun,5,,730,750,,30,,15,32,6,32,,,KINETIC,0,,0,0.10,2,0.1,0,10,2,10,,760,,,40,,,"SYSTEM, PD, PD_ALSO","pd12, kinetic5, no_sell, no_drop, no_drop_salvage",,Yoshgramm-wen Yards,,Point Defense (Area),,,,,,,,,TRUE,2023135
+Hailstorm MSFC,ywy_dronefighter_flakgun,5,,730,750,,30,,15,32,6,32,,,KINETIC,0,,0,0.1,2,0.1,0,10,2,10,,760,,,40,,,"SYSTEM, PD, PD_ALSO","pd12, kinetic5, no_sell, no_drop, no_drop_salvage",,Yoshgramm-wen Yards,,Point Defense (Area),,,,,,,,,TRUE,2023135
 Saltbox MSMM,ywy_dronefighter_mslpod,5,,500,450,,50,0,8,55,4,192,,,HIGH_EXPLOSIVE,,,0,2.2,16,0.05,0,0,0,0,,400,200,4.2,15,,,"SYSTEM, GUIDED_POOR, MISSILE_SPREAD, ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","utility6, missile0, no_drop, no_drop_salvage",,Yoshgramm-wen Yards,,Anti Small Craft,Fast,Excellent,,,,,,,TRUE,2023136
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #YwY Deco Weapons,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -107,6 +107,3 @@ Teufu-ji Hull Mask 1,ywy_teufuji_wpnCover,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,
 #Phase Lance,phasebeam,1,,1500,600,1000,,,0,20,10,,,,ENERGY,,1200,0.25,0.5,1,4,,,,,3200,,,,,,,,"energy14, beam10, rare_bp, merc",,,,General,,,,,,,,,,20
 #Antimatter Blaster,amblaster,3,0.7,900,400,,1400,,0,30,9,20,,,ENERGY,1500,,0.25,10,,,0,0,0,0,,1000,,,100,,,"STRIKE, USE_VS_FRIGATES, GROUP_ALTERNATING","strike10, rare_bp, hist1t, merc",SR_strike_only,,,Strike,,,,,,,,,,19.75
 #Rift Beam,riftbeam,3,,100000,600,150,,,0,100,15,,,,ENERGY,,150,0.1,0.1,,,,,,,2400,,,,,,,PD,"beam10, pd15, omega, restricted",,Unknown,,Point Defense,,,,,"Creates space-time rifts along the beam length, targeted at nearby enemy missiles and fighters. Each rift deals up to %s energy damage to nearby targets.",200,,,,21
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
